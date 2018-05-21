@@ -130,6 +130,7 @@ cask "vagrant"
 cask "toggl-beta"
 cask "virtualbox"
 cask "vmware-fusion"
+cask "whatsapp"
 cask "zoomus"
 
 #mas "Microsoft Remote Desktop", id: 715768417
