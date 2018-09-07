@@ -90,6 +90,7 @@ brew "wget", args: ["with-gpgme"]
 brew "whois"
 brew "zlib"
 brew "zsh"
+brew "youtube-dl"
 
 # Desktop apps to install via Cask
 cask "1password"
