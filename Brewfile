@@ -100,6 +100,7 @@ cask "betterzip"
 cask "caffeine"
 cask "charles"
 cask "dash"
+cask "discord"
 cask "docker"
 cask "edex-ui"
 cask "firefox"
@@ -126,6 +127,7 @@ cask "whatsapp"
 cask "xquartz"
 cask "zoomus"
 cask "caskroom/versions/google-chrome-canary"
+mas "1Password 7", id: 1333542190
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
