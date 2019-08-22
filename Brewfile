@@ -56,7 +56,7 @@ brew "less"
 brew "libiconv"
 brew "libxml2"
 brew "libxslt"
-brew "lsof"
+brew "lsof", link: true
 brew "lua"
 brew "luajit"
 brew "mad"
@@ -68,6 +68,7 @@ brew "nano"
 brew "node"
 brew "p7zip"
 brew "packer"
+brew "packer-completion"
 brew "pv"
 brew "pyenv"
 brew "pyenv-virtualenv"
@@ -92,6 +93,12 @@ brew "whois"
 brew "youtube-dl"
 brew "zlib"
 brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-history-substring-search"
+brew "zsh-lovers"
+brew "zsh-navigation-tools"
+brew "zshdb"
 brew "jesseduffield/lazydocker/lazydocker"
 brew "skanehira/docui/docui"
 cask "1password"
@@ -131,6 +138,8 @@ mas "1Password 7", id: 1333542190
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Questionmark Secure", id: 538427519
 mas "Xcode", id: 497799835
