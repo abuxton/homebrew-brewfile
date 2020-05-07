@@ -89,6 +89,7 @@ brew "sox"
 brew "ssh-copy-id", link: true
 brew "tcpdump"
 brew "telnet"
+brew "terraform-docs"
 brew "terragrunt"
 brew "tfenv"
 brew "tflint"
