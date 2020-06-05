@@ -36,6 +36,7 @@ brew "ec2-ami-tools"
 brew "ec2-api-tools"
 brew "ed"
 brew "elm"
+brew "envconsul"
 brew "expect"
 brew "python"
 brew "ffmpeg"
@@ -89,6 +90,7 @@ brew "rbenv"
 brew "rsync"
 brew "screen"
 brew "shellcheck"
+brew "socat"
 brew "sox"
 brew "speedtest-cli"
 brew "ssh-copy-id", link: true
@@ -157,6 +159,7 @@ cask "sentinel"
 cask "sketch"
 cask "skype"
 cask "slack"
+cask "sonic-pi"
 cask "sourcetree"
 cask "spotify"
 cask "switchresx"
@@ -171,3 +174,13 @@ cask "whatsapp"
 cask "wkhtmltopdf"
 cask "xquartz"
 cask "zoomus"
+mas "1Password 7", id: 1333542190
+mas "Air Display", id: 419449718
+mas "Deckset", id: 847496013
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
