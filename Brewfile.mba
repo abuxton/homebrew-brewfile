@@ -1,0 +1,339 @@
+tap "caskroom/cask"
+tap "caskroom/versions"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "jesseduffield/lazydocker"
+tap "liamg/tfsec"
+tap "romkatv/powerlevel10k"
+tap "skanehira/docui"
+# Search tool like grep, but optimized for programmers
+brew "ack"
+# Graphical system information display for macOS
+brew "archey"
+# Command-line interface for SQLite
+brew "sqlite"
+# Record and share terminal sessions
+brew "asciinema"
+# Aquarium animation in ASCII art
+brew "asciiquarium"
+# Spell checker with better logic than ispell
+brew "aspell"
+# Configuration editing tool and API
+brew "augeas"
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Text processing scripting language
+brew "awk"
+# AWS SDK for C++
+brew "aws-sdk-cpp"
+# Integrated shell for working with the AWS CLI
+brew "aws-shell"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Programmable completion for Bash 3.2
+brew "bash-completion"
+# Informative, fancy bash prompt for Git users
+brew "bash-git-prompt"
+# Arbitrary precision numeric processing language
+brew "bc"
+# High performance key/value database
+brew "berkeley-db@4"
+# Remove large files or passwords from Git history like git-filter-branch
+brew "bfg"
+# Collection of portable C++ source libraries
+brew "boost"
+# C++ build system
+brew "boost-build"
+# Freely available high-quality data compressor
+brew "bzip2"
+# Tool to obtain certs from Let's Encrypt and autoenable HTTPS
+brew "certbot"
+# Statistics utility to count lines of code
+brew "cloc"
+# Cross-platform make
+brew "cmake"
+# Console Matrix
+brew "cmatrix"
+# Tool for service discovery, monitoring and configuration
+brew "consul"
+# GNU File, Shell, and Text utilities
+brew "coreutils", link: false
+# Configurable talking characters in ASCII art
+brew "cowsay"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Good-lookin' diffs with diff-highlight and more
+brew "diff-so-fancy"
+# Produce graph of changes introduced by a diff file
+brew "diffstat"
+# File comparison utilities
+brew "diffutils"
+# Amazon EC2 AMI Tools (helps bundle Amazon Machine Images)
+brew "ec2-ami-tools"
+# Client interface to the Amazon EC2 web service
+brew "ec2-api-tools"
+# Classic UNIX line editor
+brew "ed"
+# Functional programming language for building browser-based GUIs
+brew "elm"
+# Program that can automate interactive applications
+brew "expect"
+# Asynchronous event library
+brew "libevent"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Utility to determine file types
+brew "file-formula"
+# File harvester to ship log files to Elasticsearch or Logstash
+brew "filebeat"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# GNU compiler collection
+brew "gcc"
+# Command-line utility for uploading Gists
+brew "gist"
+# Prevents you from committing sensitive information to a git repo
+brew "git-secrets"
+# GNU version of the tar archiving utility
+brew "gnu-tar"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Apply a diff file to an original
+brew "gpatch"
+# GPG key agent
+brew "gpg-agent"
+# Library access to GnuPG
+brew "gpgme"
+# Generic library support script
+brew "libtool"
+# Image processing tools collection
+brew "graphicsmagick"
+# Colorize logfiles and command output
+brew "grc"
+# GNU grep, egrep and fgrep
+brew "grep"
+# GNU troff text-formatting system
+brew "groff"
+# Popular GNU data compression program
+brew "gzip"
+# The Kubernetes package manager
+brew "helm"
+# Platform built on V8 to build network applications
+brew "node"
+# Command-line client for the cloud PaaS
+brew "heroku"
+# Improved top (interactive process viewer)
+brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Build tool for Clojure
+brew "leiningen"
+# Pager program similar to more
+brew "less"
+# Conversion library
+brew "libiconv"
+# GNOME XML library
+brew "libxml2"
+# Interpreted, interactive, object-oriented programming language
+brew "python", link: false
+# C XSLT library for GNOME
+brew "libxslt"
+# Utility to list open files
+brew "lsof"
+# Powerful, lightweight programming language
+brew "lua"
+# Just-In-Time Compiler (JIT) for the Lua programming language
+brew "luajit"
+# MPEG audio decoder
+brew "mad"
+# Utility for directing compilation
+brew "make"
+# Mac App Store command-line interface
+brew "mas", link: false
+# Hash utilities
+brew "md5sha1sum", link: false
+# Run a Kubernetes cluster locally
+brew "minikube", link: false
+# Testing infrastructure for Mesos frameworks
+brew "minimesos"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# Tool for creating identical machine images for multiple platforms
+brew "packer"
+# Bash completion for Packer
+brew "packer-completion"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
+# Monitor data's progress through a pipe
+brew "pv"
+# Python version management
+brew "pyenv"
+# Pyenv plugin to manage virtualenv
+brew "pyenv-virtualenv"
+# Install various Ruby versions and implementations
+brew "ruby-build"
+# Ruby version manager
+brew "rbenv"
+# Utility that provides fast incremental file transfer
+brew "rsync"
+# Terminal multiplexer with VT100/ANSI terminal emulation
+brew "screen"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# SOund eXchange: universal sound sample translator
+brew "sox"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Add a public key to a remote machine's authorized_keys file
+brew "ssh-copy-id", link: true
+# Command-line packet analyzer
+brew "tcpdump", link: false
+# User interface to the TELNET protocol
+brew "telnet"
+# Tool to generate documentation from Terraform modules
+brew "terraform-docs"
+# Thin wrapper for Terraform e.g. for locking state
+brew "terragrunt"
+# Terraform version manager inspired by rbenv
+brew "tfenv"
+# Linter for Terraform files
+brew "tflint"
+# Programatically correct mistyped console commands
+brew "thefuck"
+# Framework for scalable cross-language services development
+brew "thrift"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Extract, view, and test RAR archives
+brew "unrar"
+# Extraction utility for .zip compressed archives
+brew "unzip"
+# Bash completion for Vagrant
+brew "vagrant-completion"
+# Secures, stores, and tightly controls access to secrets
+brew "vault"
+# Internet file retriever
+brew "wget"
+# Lookup tool for domain names and other internet resources
+brew "whois"
+# Show the current WiFi network password
+brew "wifi-password"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# General-purpose lossless data-compression library
+brew "zlib"
+# UNIX shell (command interpreter)
+brew "zsh"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Additional completion definitions for zsh
+brew "zsh-completions"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
+# Tips, tricks, and examples for zsh
+brew "zsh-lovers"
+# Zsh curses-based tools, e.g. multi-word history searcher
+brew "zsh-navigation-tools"
+# Debugger for zsh
+brew "zshdb"
+# A simple terminal UI for docker, written in Go
+brew "jesseduffield/lazydocker/lazydocker"
+# Static analysis powered security scanner for your terraform code
+brew "liamg/tfsec/tfsec"
+# A Zsh Theme
+brew "romkatv/powerlevel10k/powerlevel10k"
+# TUI Client for Docker
+brew "skanehira/docui/docui"
+cask "1password"
+cask "adoptopenjdk"
+cask "airdisplay"
+cask "alfred"
+cask "atom"
+cask "battlescribe"
+cask "bbc-iplayer-downloads"
+cask "betterzip"
+cask "box-drive"
+cask "busycal"
+cask "caffeine"
+cask "charles"
+cask "chefdk"
+cask "consul-cli"
+cask "dash"
+cask "docker"
+cask "drawio"
+cask "eclipse-java"
+cask "edex-ui"
+cask "firefox"
+cask "gitter"
+cask "gitup"
+cask "google-chrome-canary"
+cask "google-cloud-sdk"
+cask "google-drive-file-stream"
+cask "insomnia"
+cask "intellij-idea"
+cask "iterm2"
+cask "java"
+cask "keybase"
+cask "licecap"
+cask "minecraft"
+cask "minecraft-server"
+cask "murus"
+cask "murus-menulet"
+cask "muruslogsvisualizer"
+cask "osxfuse"
+cask "plex"
+cask "pritunl"
+cask "puppet-bolt"
+cask "rowanj-gitx"
+cask "rsyncosx"
+cask "sentinel"
+cask "sketch"
+cask "skype"
+cask "slack"
+cask "sourcetree"
+cask "spectacle"
+cask "switchresx"
+cask "telegram"
+cask "toggl-beta"
+cask "transmit"
+cask "vagrant"
+cask "vagrant-manager"
+cask "visual-studio-code"
+cask "vmware-fusion"
+cask "wkhtmltopdf"
+cask "xquartz"
+cask "zoomus"
+mas "1Password 7", id: 1333542190
+mas "Air Display", id: 419449718
+mas "Deckset", id: 847496013
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Scrivener", id: 418889511
+mas "Xcode", id: 497799835
