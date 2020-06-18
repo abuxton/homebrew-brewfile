@@ -6,124 +6,243 @@ tap "jesseduffield/lazydocker"
 tap "liamg/tfsec"
 tap "romkatv/powerlevel10k"
 tap "skanehira/docui"
+# Search tool like grep, but optimized for programmers
 brew "ack"
+# Graphical system information display for macOS
 brew "archey"
+# Command-line interface for SQLite
 brew "sqlite"
+# Record and share terminal sessions
 brew "asciinema"
+# Spell checker with better logic than ispell
 brew "aspell"
+# Configuration editing tool and API
 brew "augeas"
+# Text processing scripting language
 brew "awk"
+# AWS SDK for C++
 brew "aws-sdk-cpp"
+# Integrated shell for working with the AWS CLI
 brew "aws-shell"
+# Official Amazon AWS command-line interface
 brew "awscli"
+# Microsoft Azure CLI 2.0
 brew "azure-cli"
+# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# Programmable completion for Bash 3.2
 brew "bash-completion"
+# Arbitrary precision numeric processing language
 brew "bc"
+# Remove large files or passwords from Git history like git-filter-branch
 brew "bfg"
+# Collection of portable C++ source libraries
 brew "boost"
+# Freely available high-quality data compressor
 brew "bzip2"
+# Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
+# Statistics utility to count lines of code
 brew "cloc"
+# Cross-platform make
 brew "cmake"
+# Tool for service discovery, monitoring and configuration
 brew "consul"
+# GNU File, Shell, and Text utilities
 brew "coreutils", link: false
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Produce graph of changes introduced by a diff file
 brew "diffstat"
+# File comparison utilities
 brew "diffutils"
+# Amazon EC2 AMI Tools (helps bundle Amazon Machine Images)
 brew "ec2-ami-tools"
+# Client interface to the Amazon EC2 web service
 brew "ec2-api-tools"
+# Classic UNIX line editor
 brew "ed", link: true
+# Functional programming language for building browser-based GUIs
 brew "elm"
+# Launch process with environment variables from Consul and Vault
 brew "envconsul"
+# Program that can automate interactive applications
 brew "expect"
+# Interpreted, interactive, object-oriented programming language
 brew "python"
+# Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Utility to determine file types
 brew "file-formula"
+# File harvester to ship log files to Elasticsearch or Logstash
 brew "filebeat"
+# Collection of GNU find, xargs, and locate
 brew "findutils"
+# GNU compiler collection
 brew "gcc"
+# Command-line utility for uploading Gists
 brew "gist"
+# Prevents you from committing sensitive information to a git repo
 brew "git-secrets"
+# GNU version of the tar archiving utility
 brew "gnu-tar"
+# GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Apply a diff file to an original
 brew "gpatch"
+# Image processing tools collection
 brew "graphicsmagick"
+# GNU grep, egrep and fgrep
 brew "grep"
+# GNU troff text-formatting system
 brew "groff"
+# Popular GNU data compression program
 brew "gzip"
+# The Kubernetes package manager
 brew "helm"
+# Improved top (interactive process viewer)
 brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Add GitHub support to git on the command-line
 brew "hub"
+# Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# Kubernetes command-line interface
 brew "kubernetes-cli", link: false
+# Build tool for Clojure
 brew "leiningen"
+# Pager program similar to more
 brew "less"
+# Conversion library
 brew "libiconv"
+# GNOME XML library
 brew "libxml2"
+# C XSLT library for GNOME
 brew "libxslt"
+# Utility to list open files
 brew "lsof"
+# Powerful, lightweight programming language
 brew "lua"
+# Just-In-Time Compiler (JIT) for the Lua programming language
 brew "luajit"
+# MPEG audio decoder
 brew "mad"
+# Utility for directing compilation
 brew "make"
+# Mac App Store command-line interface
 brew "mas"
+# Hash utilities
 brew "md5sha1sum", link: false
+# Run a Kubernetes cluster locally
 brew "minikube"
+# Testing infrastructure for Mesos frameworks
 brew "minimesos"
+# Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Platform built on V8 to build network applications
 brew "node"
+# Distributed, Highly Available, Datacenter-Aware Scheduler
 brew "nomad"
+# 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Tool for creating identical machine images for multiple platforms
 brew "packer"
+# Bash completion for Packer
 brew "packer-completion"
+# Manage compile and link flags for libraries
 brew "pkg-config"
+# Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
+# Monitor data's progress through a pipe
 brew "pv"
+# Python version management
 brew "pyenv"
+# Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
+# Install various Ruby versions and implementations
 brew "ruby-build"
+# Ruby version manager
 brew "rbenv"
+# Utility that provides fast incremental file transfer
 brew "rsync"
+# Terminal multiplexer with VT100/ANSI terminal emulation
 brew "screen"
+# Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# SOcket CAT: netcat on steroids
 brew "socat"
+# SOund eXchange: universal sound sample translator
 brew "sox"
+# Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Add a public key to a remote machine's authorized_keys file
 brew "ssh-copy-id", link: true
+# Command-line packet analyzer
 brew "tcpdump"
+# User interface to the TELNET protocol
 brew "telnet"
+# Tool to generate documentation from Terraform modules
 brew "terraform-docs"
+# Thin wrapper for Terraform e.g. for locking state
 brew "terragrunt"
+# Terraform version manager inspired by rbenv
 brew "tfenv"
+# Linter for Terraform files
 brew "tflint"
+# Programatically correct mistyped console commands
 brew "thefuck"
+# Framework for scalable cross-language services development
 brew "thrift"
+# Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extract, view, and test RAR archives
 brew "unrar"
+# Extraction utility for .zip compressed archives
 brew "unzip"
+# Bash completion for Vagrant
 brew "vagrant-completion"
+# Secures, stores, and tightly controls access to secrets
 brew "vault"
+# Internet file retriever
 brew "wget"
+# Lookup tool for domain names and other internet resources
 brew "whois"
+# Show the current WiFi network password
 brew "wifi-password"
+# Download YouTube videos from the command-line
 brew "youtube-dl"
+# General-purpose lossless data-compression library
 brew "zlib"
+# UNIX shell (command interpreter)
 brew "zsh"
+# Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Additional completion definitions for zsh
 brew "zsh-completions"
+# Zsh port of Fish shell's history search
 brew "zsh-history-substring-search"
+# Tips, tricks, and examples for zsh
 brew "zsh-lovers"
+# Zsh curses-based tools, e.g. multi-word history searcher
 brew "zsh-navigation-tools"
+# Debugger for zsh
 brew "zshdb"
+# A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
+# Static analysis powered security scanner for your terraform code
 brew "liamg/tfsec/tfsec"
+# A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# TUI Client for Docker
 brew "skanehira/docui/docui"
 cask "1password"
 cask "airdisplay"
