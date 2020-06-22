@@ -82,7 +82,7 @@ brew "ec2-ami-tools"
 # Client interface to the Amazon EC2 web service
 brew "ec2-api-tools"
 # Classic UNIX line editor
-brew "ed"
+brew "ed", link: true
 # Functional programming language for building browser-based GUIs
 brew "elm"
 # Program that can automate interactive applications
@@ -213,6 +213,8 @@ brew "tcpdump", link: false
 brew "telnet"
 # Tool to generate documentation from Terraform modules
 brew "terraform-docs"
+# Improve Terraform's plan output
+brew "terraform_landscape"
 # Thin wrapper for Terraform e.g. for locking state
 brew "terragrunt"
 # Terraform version manager inspired by rbenv
@@ -335,5 +337,4 @@ mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Scrivener", id: 418889511
 mas "Xcode", id: 497799835
