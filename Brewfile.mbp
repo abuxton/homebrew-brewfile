@@ -1,3 +1,4 @@
+tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -76,8 +77,6 @@ brew "envconsul"
 brew "expect"
 # OpenType text shaping engine
 brew "harfbuzz"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Utility to determine file types
@@ -246,6 +245,8 @@ brew "zsh-lovers"
 brew "zsh-navigation-tools"
 # Debugger for zsh
 brew "zshdb"
+# Doormat CLI -- Command Line Interface to the Doormat Service
+brew "hashicorp/security/doormat-cli"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Static analysis powered security scanner for your terraform code
