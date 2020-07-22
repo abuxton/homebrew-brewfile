@@ -1,3 +1,4 @@
+tap "golangci/tap"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -6,11 +7,14 @@ tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 tap "liamg/tfsec"
 tap "romkatv/powerlevel10k"
+tap "shipyard-run/repo"
 tap "skanehira/docui"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Command-line interface for SQLite
 brew "sqlite"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -93,12 +97,14 @@ brew "gdk-pixbuf"
 brew "gist"
 # Prevents you from committing sensitive information to a git repo
 brew "git-secrets"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Simplified Go project management, dependency management, and vendoring
+brew "glide"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Apply a diff file to an original
 brew "gpatch"
 # Image processing tools collection
@@ -245,6 +251,8 @@ brew "zsh-lovers"
 brew "zsh-navigation-tools"
 # Debugger for zsh
 brew "zshdb"
+# Fast linters runner for Go.
+brew "golangci/tap/golangci-lint"
 # Doormat CLI -- Command Line Interface to the Doormat Service
 brew "hashicorp/security/doormat-cli"
 # A simple terminal UI for docker, written in Go
@@ -253,6 +261,8 @@ brew "jesseduffield/lazydocker/lazydocker"
 brew "liamg/tfsec/tfsec"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# 
+brew "shipyard-run/repo/shipyard"
 # TUI Client for Docker
 brew "skanehira/docui/docui"
 cask "1password"
