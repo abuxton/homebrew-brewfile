@@ -317,6 +317,7 @@ cask "xquartz"
 cask "zoomus"
 mas "1Password 7", id: 1333542190
 mas "Air Display", id: 419449718
+mas "Apple Configurator 2", id: 1037126344
 mas "Deckset", id: 847496013
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
