@@ -13,8 +13,6 @@ tap "skanehira/docui"
 brew "ack"
 # Command-line interface for SQLite
 brew "sqlite"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -67,6 +65,8 @@ brew "diff-so-fancy"
 brew "diffstat"
 # File comparison utilities
 brew "diffutils"
+# Replay stored shell commands for live presentations
+brew "doitlive"
 # Amazon EC2 AMI Tools (helps bundle Amazon Machine Images)
 brew "ec2-ami-tools"
 # Client interface to the Amazon EC2 web service
@@ -79,6 +79,8 @@ brew "elm"
 brew "envconsul"
 # Program that can automate interactive applications
 brew "expect"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Play, record, convert, and stream audio and video
@@ -97,6 +99,8 @@ brew "gdk-pixbuf"
 brew "gist"
 # Prevents you from committing sensitive information to a git repo
 brew "git-secrets"
+# Easy semantic versioning for projects using Git
+brew "gitversion"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Simplified Go project management, dependency management, and vendoring
@@ -173,8 +177,6 @@ brew "p7zip"
 brew "packer"
 # Bash completion for Packer
 brew "packer-completion"
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Monitor data's progress through a pipe
@@ -317,6 +319,7 @@ cask "wkhtmltopdf"
 cask "xquartz"
 cask "zoomus"
 mas "1Password 7", id: 1333542190
+mas "Air Display", id: 419449718
 mas "Apple Configurator 2", id: 1037126344
 mas "Deckset", id: 847496013
 mas "GarageBand", id: 682658836
