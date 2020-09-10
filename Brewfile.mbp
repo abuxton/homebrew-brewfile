@@ -91,6 +91,8 @@ brew "file-formula"
 brew "filebeat"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GNU compiler collection
 brew "gcc"
 # Toolkit for image loading and pixel buffer manipulation
@@ -113,6 +115,8 @@ brew "gnupg"
 brew "gpatch"
 # Image processing tools collection
 brew "graphicsmagick"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # GNU grep, egrep and fgrep
 brew "grep"
 # GNU troff text-formatting system
@@ -234,7 +238,7 @@ brew "vault"
 # Internet file retriever
 brew "wget"
 # Lookup tool for domain names and other internet resources
-brew "whois"
+brew "whois", link: true
 # Show the current WiFi network password
 brew "wifi-password"
 # Download YouTube videos from the command-line
@@ -291,6 +295,7 @@ cask "insomnia"
 cask "istat-menus"
 cask "iterm2"
 cask "java"
+cask "keybase"
 cask "licecap"
 cask "loopback"
 cask "osxfuse"
