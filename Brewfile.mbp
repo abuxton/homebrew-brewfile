@@ -41,6 +41,8 @@ brew "bash"
 brew "bash-completion"
 # Arbitrary precision numeric processing language
 brew "bc"
+# Development kit for the Java programming language
+brew "openjdk"
 # Remove large files or passwords from Git history like git-filter-branch
 brew "bfg"
 # Collection of portable C++ source libraries
@@ -223,6 +225,8 @@ brew "tflint"
 brew "thefuck"
 # Framework for scalable cross-language services development
 brew "thrift"
+# Simplified and community-driven man pages
+brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
