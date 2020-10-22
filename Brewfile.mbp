@@ -69,6 +69,8 @@ brew "diffstat"
 brew "diffutils"
 # Replay stored shell commands for live presentations
 brew "doitlive"
+# More intuitive version of du in rust
+brew "dust"
 # Amazon EC2 AMI Tools (helps bundle Amazon Machine Images)
 brew "ec2-ami-tools"
 # Client interface to the Amazon EC2 web service
@@ -125,9 +127,9 @@ brew "grep"
 brew "groff"
 # Popular GNU data compression program
 brew "gzip"
-# The Kubernetes package manager
+# Kubernetes package manager
 brew "helm"
-# The Kubernetes package manager
+# Kubernetes package manager
 brew "helm@2"
 # Improved top (interactive process viewer)
 brew "htop"
@@ -183,6 +185,8 @@ brew "p7zip"
 brew "packer"
 # Bash completion for Packer
 brew "packer-completion"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Monitor data's progress through a pipe
