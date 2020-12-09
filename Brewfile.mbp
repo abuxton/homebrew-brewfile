@@ -9,6 +9,7 @@ tap "liamg/tfsec"
 tap "romkatv/powerlevel10k"
 tap "shipyard-run/repo"
 tap "skanehira/docui"
+cask "osxfuse"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Command-line interface for SQLite
@@ -107,6 +108,8 @@ brew "fzf"
 brew "gcc"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
+# GitHub command-line tool
+brew "gh"
 # Command-line utility for uploading Gists
 brew "gist"
 # Prevents you from committing sensitive information to a git repo
@@ -191,6 +194,8 @@ brew "nano"
 brew "ngrep"
 # Distributed, Highly Available, Datacenter-Aware Scheduler
 brew "nomad"
+# Read-write NTFS driver for FUSE
+brew "ntfs-3g"
 # Simple CLI for interacting with Google oauth tokens
 brew "oauth2l"
 # API for decoding and seeking in .opus files
@@ -322,7 +327,6 @@ cask "java"
 cask "keybase"
 cask "licecap"
 cask "loopback"
-cask "osxfuse"
 cask "plex"
 cask "pritunl"
 cask "rowanj-gitx"
@@ -335,6 +339,8 @@ cask "slack"
 cask "sonic-pi"
 cask "sourcetree"
 cask "spotify"
+cask "steam"
+cask "steamcmd"
 cask "switchresx"
 cask "telegram"
 cask "transmit"
