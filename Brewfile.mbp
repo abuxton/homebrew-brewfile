@@ -246,7 +246,7 @@ brew "terragrunt"
 brew "tfenv"
 # Linter for Terraform files
 brew "tflint"
-# Programatically correct mistyped console commands
+# Programmatically correct mistyped console commands
 brew "thefuck"
 # Framework for scalable cross-language services development
 brew "thrift"
