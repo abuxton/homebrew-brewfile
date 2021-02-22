@@ -9,9 +9,10 @@ tap "liamg/tfsec"
 tap "romkatv/powerlevel10k"
 tap "shipyard-run/repo"
 tap "skanehira/docui"
-cask "osxfuse"
 # Search tool like grep, but optimized for programmers
 brew "ack"
+# Run your GitHub Actions locally 🚀
+brew "act"
 # Command-line interface for SQLite
 brew "sqlite"
 # Automate deployment, configuration, and upgrading
@@ -54,6 +55,8 @@ brew "boost"
 brew "bzip2"
 # Core application library for C
 brew "glib"
+# Vector graphics library with cross-device output support
+brew "cairo"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # Statistics utility to count lines of code
@@ -90,6 +93,8 @@ brew "envconsul"
 brew "expect"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # OpenType text shaping engine
@@ -140,14 +145,14 @@ brew "groff"
 brew "gzip"
 # Kubernetes package manager
 brew "helm"
-# Kubernetes package manager
-brew "helm@2"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Add GitHub support to git on the command-line
 brew "hub"
+# Database of common MIME types
+brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
 # Tools and libraries to manipulate images in many formats
@@ -226,6 +231,8 @@ brew "rsync"
 brew "screen"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Autoformat shell script source code
+brew "shfmt"
 # SOcket CAT: netcat on steroids
 brew "socat"
 # SOund eXchange: universal sound sample translator
@@ -301,58 +308,104 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 brew "shipyard-run/repo/shipyard"
 # TUI Client for Docker
 brew "skanehira/docui/docui"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
 cask "bbc-iplayer-downloads"
+# Tool to customize input devices and automate computer systems
 cask "bettertouchtool"
+# Utility to create and modify archives
 cask "betterzip"
+# Client for the Box cloud storage service
 cask "box-drive"
+# Utility that prevents the system from going to sleep
 cask "caffeine"
+# Web debugging Proxy application
 cask "charles"
+# API documentation browser and code snippet manager
 cask "dash"
 cask "deckset"
+# Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
 cask "docker"
+# Draw.io is free online diagram software
 cask "drawio"
+# Client for the Dropbox cloud storage service
 cask "dropbox"
 cask "edex-ui"
+# Web browser
 cask "firefox"
 cask "gitter"
+# Web browser
 cask "google-chrome"
+# Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
+# Client for the Google Drive storage service
 cask "google-drive-file-stream"
+# HTTP and GraphQL Client
 cask "insomnia"
+# System monitoring app
 cask "istat-menus"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 cask "java"
+# End-to-end encryption software
 cask "keybase"
+# Animated screen capture application
 cask "licecap"
+# Cable-free audio router
 cask "loopback"
+# File system integration
+cask "osxfuse"
+# Home media server
 cask "plex"
+# OpenVPN client
 cask "pritunl"
+# Native graphical client for the git version control system
 cask "rowanj-gitx"
+# GUI for rsync
 cask "rsyncosx"
+# Word processing software with a typewriter style
 cask "scrivener"
 cask "sentinel"
+# Instant messaging application focusing on security
 cask "signal"
+# Digital design and prototyping platform
 cask "sketch"
+# Video chat, voice call and instant messaging application
 cask "skype"
+# Team communication and collaboration software
 cask "slack"
+# Code-based music creation and performance tool
 cask "sonic-pi"
+# Graphical client for Git version control
 cask "sourcetree"
+# Music streaming service
 cask "spotify"
+# Video game digital distribution service
 cask "steam"
 cask "steamcmd"
+# Controls screen display settings
 cask "switchresx"
+# Messaging app with a focus on speed and security
 cask "telegram"
+# File transfer application
 cask "transmit"
+# Development environment
 cask "vagrant"
 cask "vagrant-manager"
+# Free and open-source hosted hypervisor for x86 virtualization
 cask "virtualbox"
+# Open-source code editor
 cask "visual-studio-code"
+# App to run other operating systems without rebooting
 cask "vmware-fusion"
+# Desktop client for WhatsApp
 cask "whatsapp"
 cask "wkhtmltopdf"
+# Open-source version of the X.Org X Window System
 cask "xquartz"
+# Temporary makeshift alias for the video communication tool Zoom
 cask "zoomus"
 mas "1Password 7", id: 1333542190
 mas "Air Display", id: 419449718
