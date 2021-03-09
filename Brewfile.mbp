@@ -1,5 +1,6 @@
 tap "golangci/tap"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -95,6 +96,8 @@ brew "expect"
 brew "pkg-config"
 # GNU Ubiquitous Intelligent Language for Extensions
 brew "guile"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # OpenType text shaping engine
@@ -159,8 +162,6 @@ brew "libheif"
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Kubernetes command-line interface
-brew "kubernetes-cli", link: false
 # Build tool for Clojure
 brew "leiningen"
 # Pager program similar to more
@@ -299,6 +300,8 @@ brew "zshdb"
 brew "golangci/tap/golangci-lint"
 # Doormat CLI -- Command Line Interface to the Doormat Service
 brew "hashicorp/security/doormat-cli"
+# Boundary
+brew "hashicorp/tap/boundary"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # Static analysis powered security scanner for your terraform code
@@ -355,6 +358,8 @@ cask "keybase"
 cask "licecap"
 # Cable-free audio router
 cask "loopback"
+# Verify system files structure, run miscellaneous maintenance and more
+cask "onyx"
 # File system integration
 cask "osxfuse"
 # Home media server
