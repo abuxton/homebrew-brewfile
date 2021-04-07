@@ -7,6 +7,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 tap "liamg/tfsec"
+tap "replicatedhq/replicated"
 tap "romkatv/powerlevel10k"
 tap "shipyard-run/repo"
 tap "skanehira/docui"
@@ -306,6 +307,8 @@ brew "hashicorp/tap/boundary"
 brew "jesseduffield/lazydocker/lazydocker"
 # Static analysis powered security scanner for your terraform code
 brew "liamg/tfsec/tfsec"
+# Manage your app's channels and releases from the command line
+brew "replicatedhq/replicated/cli"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 brew "shipyard-run/repo/shipyard"
@@ -362,7 +365,7 @@ cask "loopback"
 cask "onyx"
 # File system integration
 cask "osxfuse"
-# Home media server
+# Home media player
 cask "plex"
 # OpenVPN client
 cask "pritunl"
