@@ -170,8 +170,6 @@ brew "leiningen"
 brew "less"
 # Conversion library
 brew "libiconv"
-# GNOME XML library
-brew "libxml2"
 # C XSLT library for GNOME
 brew "libxslt"
 # Utility to list open files
@@ -287,7 +285,7 @@ brew "zsh"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Additional completion definitions for zsh
-brew "zsh-completions", link: false
+brew "zsh-completions"
 # Zsh port of Fish shell's history search
 brew "zsh-history-substring-search"
 # Tips, tricks, and examples for zsh
@@ -317,6 +315,7 @@ brew "skanehira/docui/docui"
 brew "warrensbox/tap/tfswitch"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Download programmes from the BBC iPlayer website
 cask "bbc-iplayer-downloads"
 # Tool to customize input devices and automate computer systems
 cask "bettertouchtool"
@@ -408,13 +407,15 @@ cask "vagrant-manager"
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
-# App to run other operating systems without rebooting
+# Create, manage, and run virtual machines
 cask "vmware-fusion"
 # Desktop client for WhatsApp
 cask "whatsapp"
 cask "wkhtmltopdf"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "Air Display", id: 419449718
 mas "Apple Configurator 2", id: 1037126344
