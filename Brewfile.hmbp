@@ -9,6 +9,7 @@ tap "jesseduffield/lazydocker"
 tap "liamg/tfsec"
 tap "replicatedhq/replicated"
 tap "romkatv/powerlevel10k"
+tap "shihanng/tfvar"
 tap "shipyard-run/repo"
 tap "skanehira/docui"
 tap "warrensbox/tap"
@@ -308,6 +309,8 @@ brew "liamg/tfsec/tfsec"
 brew "replicatedhq/replicated/cli"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# Terraform's variable definitions template generator.
+brew "shihanng/tfvar/tfvar"
 brew "shipyard-run/repo/shipyard"
 # TUI Client for Docker
 brew "skanehira/docui/docui"
