@@ -12,6 +12,7 @@ tap "romkatv/powerlevel10k"
 tap "shihanng/tfvar"
 tap "shipyard-run/repo"
 tap "skanehira/docui"
+tap "snyk/tap"
 tap "warrensbox/tap"
 # Search tool like grep, but optimized for programmers
 brew "ack"
@@ -73,6 +74,8 @@ brew "cmake"
 brew "consul"
 # GNU File, Shell, and Text utilities
 brew "coreutils", link: false
+# Get, unpack, build, and install modules from CPAN
+brew "cpanminus"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
@@ -249,6 +252,8 @@ brew "tcpdump"
 brew "telnet"
 # Tool to generate documentation from Terraform modules
 brew "terraform-docs"
+# CLI tool to generate terraform files from existing infrastructure
+brew "terraformer"
 # Thin wrapper for Terraform e.g. for locking state
 brew "terragrunt"
 # Linter for Terraform files
@@ -314,6 +319,8 @@ brew "shihanng/tfvar/tfvar"
 brew "shipyard-run/repo/shipyard"
 # TUI Client for Docker
 brew "skanehira/docui/docui"
+# Find & fix known vulnerabilities in open-source dependencies
+brew "snyk/tap/snyk"
 # The tfswitch command lets you switch between terraform versions.
 brew "warrensbox/tap/tfswitch"
 # Password manager that keeps all passwords secure behind one password
