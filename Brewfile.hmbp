@@ -3,6 +3,7 @@ tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazydocker"
@@ -40,8 +41,6 @@ brew "aws-sdk-cpp"
 brew "aws-shell"
 # Official Amazon AWS command-line interface
 brew "awscli"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -142,6 +141,8 @@ brew "gnupg"
 brew "gpatch"
 # Image processing tools collection
 brew "graphicsmagick"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Graph visualization software from AT&T and Bell Labs
@@ -351,6 +352,7 @@ cask "dropbox"
 cask "edex-ui"
 # Web browser
 cask "firefox"
+cask "garmin-express"
 cask "gitter"
 # Web browser
 cask "google-chrome"
@@ -415,6 +417,8 @@ cask "vagrant"
 cask "vagrant-manager"
 # Free and open-source hosted hypervisor for x86 virtualization
 cask "virtualbox"
+# AMD64/Intel64 and x86 virtualization
+cask "virtualbox-extension-pack"
 # Open-source code editor
 cask "visual-studio-code"
 # Create, manage, and run virtual machines
