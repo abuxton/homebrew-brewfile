@@ -72,7 +72,7 @@ brew "cmake"
 # Tool for service discovery, monitoring and configuration
 brew "consul"
 # GNU File, Shell, and Text utilities
-brew "coreutils", link: false
+brew "coreutils"
 # Get, unpack, build, and install modules from CPAN
 brew "cpanminus"
 # Get a file from an HTTP, HTTPS or FTP server
