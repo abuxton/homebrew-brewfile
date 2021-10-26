@@ -349,9 +349,11 @@ cask "docker"
 cask "drawio"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Sci-fi themed terminal emulator and system monitor
 cask "edex-ui"
 # Web browser
 cask "firefox"
+# Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
 cask "gitter"
 # Web browser
