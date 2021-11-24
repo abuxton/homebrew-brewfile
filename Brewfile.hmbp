@@ -1,3 +1,4 @@
+tap "abuxton/tap"
 tap "golangci/tap"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
@@ -417,9 +418,9 @@ cask "transmit"
 # Development environment
 cask "vagrant"
 cask "vagrant-manager"
-# Free and open-source hosted hypervisor for x86 virtualization
+# Virtualizer for x86 hardware
 cask "virtualbox"
-# AMD64/Intel64 and x86 virtualization
+# Extend the functionality of VirtualBox
 cask "virtualbox-extension-pack"
 # Open-source code editor
 cask "visual-studio-code"
