@@ -20,8 +20,6 @@ tap "warrensbox/tap"
 brew "ack"
 # Run your GitHub Actions locally 🚀
 brew "act"
-# Command-line interface for SQLite
-brew "sqlite"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -64,6 +62,10 @@ brew "glib"
 brew "pkg-config"
 # Vector graphics library with cross-device output support
 brew "cairo"
+# Platform built on V8 to build network applications
+brew "node"
+# Cloud Development Kit for Terraform
+brew "cdktf"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # Statistics utility to count lines of code
@@ -71,7 +73,7 @@ brew "cloc"
 # Cross-platform make
 brew "cmake"
 # Tool for service discovery, monitoring and configuration
-brew "consul"
+brew "consul", restart_service: true
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get, unpack, build, and install modules from CPAN
@@ -103,9 +105,11 @@ brew "expect"
 # GNU Ubiquitous Intelligent Language for Extensions
 brew "guile"
 # Validating, recursive, caching DNS resolver
-brew "unbound"
+brew "unbound", restart_service: true
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Play, record, convert, and stream audio and video
@@ -113,7 +117,7 @@ brew "ffmpeg"
 # Utility to determine file types
 brew "file-formula"
 # File harvester to ship log files to Elasticsearch or Logstash
-brew "filebeat"
+brew "filebeat", restart_service: true
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # Command-line fuzzy finder written in Go
@@ -170,6 +174,8 @@ brew "libheif"
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Build tool for Clojure
 brew "leiningen"
 # Pager program similar to more
@@ -188,8 +194,6 @@ brew "luajit"
 brew "mad"
 # Utility for directing compilation
 brew "make"
-# Platform built on V8 to build network applications
-brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
 # Mac App Store command-line interface
@@ -205,7 +209,7 @@ brew "nano"
 # Network grep
 brew "ngrep"
 # Distributed, Highly Available, Datacenter-Aware Scheduler
-brew "nomad"
+brew "nomad", restart_service: true
 # Read-write NTFS driver for FUSE
 brew "ntfs-3g"
 # Simple CLI for interacting with Google oauth tokens
@@ -220,6 +224,8 @@ brew "packer"
 brew "packer-completion"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Tool for managing OCI containers and pods
+brew "podman"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Monitor data's progress through a pipe
@@ -277,7 +283,7 @@ brew "unzip"
 # Bash completion for Vagrant
 brew "vagrant-completion"
 # Secures, stores, and tightly controls access to secrets
-brew "vault"
+brew "vault", restart_service: true
 # Internet file retriever
 brew "wget"
 # Lookup tool for domain names and other internet resources
