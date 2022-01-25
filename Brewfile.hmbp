@@ -73,7 +73,7 @@ brew "cloc"
 # Cross-platform make
 brew "cmake"
 # Tool for service discovery, monitoring and configuration
-brew "consul", restart_service: true
+brew "consul"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get, unpack, build, and install modules from CPAN
@@ -105,7 +105,7 @@ brew "expect"
 # GNU Ubiquitous Intelligent Language for Extensions
 brew "guile"
 # Validating, recursive, caching DNS resolver
-brew "unbound", restart_service: true
+brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # Generate introspection data for GObject libraries
@@ -117,7 +117,7 @@ brew "ffmpeg"
 # Utility to determine file types
 brew "file-formula"
 # File harvester to ship log files to Elasticsearch or Logstash
-brew "filebeat", restart_service: true
+brew "filebeat"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # Command-line fuzzy finder written in Go
@@ -209,7 +209,7 @@ brew "nano"
 # Network grep
 brew "ngrep"
 # Distributed, Highly Available, Datacenter-Aware Scheduler
-brew "nomad", restart_service: true
+brew "nomad"
 # Read-write NTFS driver for FUSE
 brew "ntfs-3g"
 # Simple CLI for interacting with Google oauth tokens
@@ -283,7 +283,7 @@ brew "unzip"
 # Bash completion for Vagrant
 brew "vagrant-completion"
 # Secures, stores, and tightly controls access to secrets
-brew "vault", restart_service: true
+brew "vault"
 # Internet file retriever
 brew "wget"
 # Lookup tool for domain names and other internet resources
@@ -382,6 +382,8 @@ cask "keybase"
 cask "licecap"
 # Cable-free audio router
 cask "loopback"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Verify system files structure, run miscellaneous maintenance and more
 cask "onyx"
 # File system integration
