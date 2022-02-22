@@ -86,6 +86,8 @@ brew "diff-so-fancy"
 brew "diffstat"
 # File comparison utilities
 brew "diffutils"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # Replay stored shell commands for live presentations
 brew "doitlive"
 # More intuitive version of du in rust
