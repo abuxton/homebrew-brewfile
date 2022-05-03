@@ -88,6 +88,10 @@ brew "diffstat"
 brew "diffutils"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# TUI Client for Docker
+brew "docui"
 # Replay stored shell commands for live presentations
 brew "doitlive"
 # More intuitive version of du in rust
@@ -136,8 +140,6 @@ brew "gist"
 brew "git-secrets"
 # Easy semantic versioning for projects using Git
 brew "gitversion"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Simplified Go project management, dependency management, and vendoring
 brew "glide"
 # GNU version of the tar archiving utility
@@ -288,6 +290,8 @@ brew "unzip"
 brew "vagrant-completion"
 # Secures, stores, and tightly controls access to secrets
 brew "vault"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Internet file retriever
 brew "wget"
 # Lookup tool for domain names and other internet resources
@@ -329,8 +333,6 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 # Terraform's variable definitions template generator.
 brew "shihanng/tfvar/tfvar"
 brew "shipyard-run/repo/shipyard"
-# TUI Client for Docker
-brew "skanehira/docui/docui"
 # Find & fix known vulnerabilities in open-source dependencies
 brew "snyk/tap/snyk"
 # The tfswitch command lets you switch between terraform versions.
@@ -447,7 +449,7 @@ cask "xquartz"
 cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "Air Display", id: 419449718
-mas "Apple Configurator 2", id: 1037126344
+mas "Apple Configurator", id: 1037126344
 mas "Deckset", id: 847496013
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
