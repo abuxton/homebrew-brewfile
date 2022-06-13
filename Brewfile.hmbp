@@ -154,6 +154,8 @@ brew "graphicsmagick"
 brew "python@3.8"
 # Framework for layout and rendering of i18n text
 brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # GNU grep, egrep and fgrep
@@ -188,6 +190,8 @@ brew "leiningen"
 brew "less"
 # Conversion library
 brew "libiconv"
+# General purpose TCP-IP emulator
+brew "libslirp"
 # C XSLT library for GNOME
 brew "libxslt"
 # Utility to list open files
@@ -216,8 +220,6 @@ brew "nano"
 brew "ngrep"
 # Distributed, Highly Available, Datacenter-Aware Scheduler
 brew "nomad"
-# Read-write NTFS driver for FUSE
-brew "ntfs-3g"
 # Simple CLI for interacting with Google oauth tokens
 brew "oauth2l"
 # API for decoding and seeking in .opus files
@@ -230,6 +232,8 @@ brew "packer"
 brew "packer-completion"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Python dependency management tool
+brew "pipenv"
 # Tool for managing OCI containers and pods
 brew "podman"
 # Framework for managing multi-language pre-commit hooks
@@ -326,7 +330,7 @@ brew "hashicorp/tap/boundary"
 brew "jesseduffield/lazydocker/lazydocker"
 # Static analysis powered security scanner for your terraform code
 brew "liamg/tfsec/tfsec"
-# Manage your app's channels and releases from the command line
+# Package Replicated applications and manage releases, channels, customers and entitlements using a command-line interface.
 brew "replicatedhq/replicated/cli"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
