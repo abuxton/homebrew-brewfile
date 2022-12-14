@@ -1,4 +1,5 @@
 tap "abuxton/tap"
+tap "busser/tap"
 tap "golangci/tap"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
@@ -49,6 +50,14 @@ brew "bash"
 brew "bash-completion"
 # Arbitrary precision numeric processing language
 brew "bc"
+# Core application library for C
+brew "glib"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Vector graphics library with cross-device output support
+brew "cairo"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Development kit for the Java programming language
 brew "openjdk"
 # Remove large files or passwords from Git history like git-filter-branch
@@ -57,14 +66,6 @@ brew "bfg"
 brew "boost"
 # Freely available high-quality data compressor
 brew "bzip2"
-# Core application library for C
-brew "glib"
-# Manage compile and link flags for libraries
-brew "pkg-config"
-# Vector graphics library with cross-device output support
-brew "cairo"
-# Platform built on V8 to build network applications
-brew "node"
 # Cloud Development Kit for Terraform
 brew "cdktf"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
@@ -115,10 +116,6 @@ brew "guile"
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Utility to determine file types
@@ -147,6 +144,8 @@ brew "glide"
 brew "gnu-tar"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # Apply a diff file to an original
 brew "gpatch"
 # Image processing tools collection
@@ -207,6 +206,8 @@ brew "luajit"
 brew "mad"
 # Utility for directing compilation
 brew "make"
+# Platform built on V8 to build network applications
+brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
 # Mac App Store command-line interface
@@ -217,6 +218,8 @@ brew "md5sha1sum", link: false
 brew "minikube"
 # Testing infrastructure for Mesos frameworks
 brew "minimesos"
+# Project documentation with Markdown
+brew "mkdocs"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Network grep
@@ -238,7 +241,7 @@ brew "pandoc"
 # Python dependency management tool
 brew "pipenv"
 # Tool for managing OCI containers and pods
-brew "podman"
+brew "podman", restart_service: true
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Monitor data's progress through a pipe
@@ -323,6 +326,8 @@ brew "zsh-lovers"
 brew "zsh-navigation-tools"
 # Debugger for zsh
 brew "zshdb"
+# Display your Terraform module call stack
+brew "busser/tap/tftree"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # Doormat CLI -- Command Line Interface to the Doormat Service
@@ -362,6 +367,7 @@ cask "caffeine"
 cask "charles"
 # API documentation browser and code snippet manager
 cask "dash"
+# Presentations from Markdown
 cask "deckset"
 # Voice and text chat software
 cask "discord"
@@ -442,14 +448,13 @@ cask "vagrant"
 cask "vagrant-manager"
 # Virtualizer for x86 hardware
 cask "virtualbox"
-# Extend the functionality of VirtualBox
-cask "virtualbox-extension-pack"
 # Open-source code editor
 cask "visual-studio-code"
 # Create, manage, and run virtual machines
 cask "vmware-fusion"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# HTML to PDF renderer
 cask "wkhtmltopdf"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
