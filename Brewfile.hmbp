@@ -116,6 +116,8 @@ brew "guile"
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Utility to determine file types
@@ -152,8 +154,6 @@ brew "gpatch"
 brew "graphicsmagick"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
-# Framework for layout and rendering of i18n text
-brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
