@@ -42,6 +42,8 @@ brew "aws-sdk-cpp"
 brew "aws-shell"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Bring your existing Azure resources under the management of Terraform
+brew "aztfy"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -310,6 +312,8 @@ brew "whois", link: true
 brew "wifi-password"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Command-line fuzzy finder that prioritizes matches on filenames
+brew "zf"
 # General-purpose lossless data-compression library
 brew "zlib"
 # UNIX shell (command interpreter)
