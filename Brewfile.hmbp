@@ -218,8 +218,6 @@ brew "mas"
 brew "md5sha1sum", link: false
 # Run a Kubernetes cluster locally
 brew "minikube"
-# Testing infrastructure for Mesos frameworks
-brew "minimesos"
 # Project documentation with Markdown
 brew "mkdocs"
 # Free (GNU) replacement for the Pico text editor
