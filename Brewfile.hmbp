@@ -66,6 +66,8 @@ brew "openjdk"
 brew "bfg"
 # Collection of portable C++ source libraries
 brew "boost"
+# Bash-Operated Reconciling Kludge
+brew "bork"
 # Freely available high-quality data compressor
 brew "bzip2"
 # Cloud Development Kit for Terraform
@@ -112,12 +114,12 @@ brew "elm"
 brew "envconsul"
 # Program that can automate interactive applications
 brew "expect"
-# GNU Ubiquitous Intelligent Language for Extensions
-brew "guile"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Play, record, convert, and stream audio and video
@@ -241,7 +243,7 @@ brew "pandoc"
 # Python dependency management tool
 brew "pipenv"
 # Tool for managing OCI containers and pods
-brew "podman", restart_service: true
+brew "podman"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Monitor data's progress through a pipe
