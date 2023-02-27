@@ -1,5 +1,6 @@
 tap "abuxton/tap"
 tap "busser/tap"
+tap "derailed/k9s"
 tap "golangci/tap"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
@@ -118,8 +119,6 @@ brew "expect"
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
-# GNU Ubiquitous Intelligent Language for Extensions
-brew "guile"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Play, record, convert, and stream audio and video
@@ -148,6 +147,8 @@ brew "gitversion"
 brew "glide"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Generate introspection data for GObject libraries
@@ -332,6 +333,8 @@ brew "zsh-navigation-tools"
 brew "zshdb"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "derailed/k9s/k9s"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # Doormat CLI -- Command Line Interface to the Doormat Service
