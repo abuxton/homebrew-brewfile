@@ -405,6 +405,8 @@ cask "istat-menus"
 cask "iterm2"
 # End-to-end encryption software
 cask "keybase"
+# Control your environment from your keyboard
+cask "lazy"
 # Animated screen capture application
 cask "licecap"
 # Cable-free audio router
