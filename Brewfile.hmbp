@@ -12,6 +12,7 @@ tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 tap "liamg/tfsec"
 tap "nikaro/tap"
+tap "puppetlabs/puppet"
 tap "replicatedhq/replicated"
 tap "romkatv/powerlevel10k"
 tap "shihanng/tfvar"
@@ -25,10 +26,14 @@ brew "ack"
 brew "act"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# Python code formatter
+brew "black"
+# Linter for YAML files
+brew "yamllint"
 # Checks ansible playbooks for practices and behaviour
 brew "ansible-lint"
-# Graphical system information display for macOS
-brew "archey"
+# Simple system information tool written in Python
+brew "archey4"
 # Record and share terminal sessions
 brew "asciinema"
 # Spell checker with better logic than ispell
@@ -44,7 +49,7 @@ brew "aws-shell"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Bring your existing Azure resources under the management of Terraform
-brew "aztfy"
+brew "aztfexport"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -55,8 +60,6 @@ brew "bash-completion"
 brew "bc"
 # Core application library for C
 brew "glib"
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # OpenType text shaping engine
@@ -69,6 +72,8 @@ brew "bfg"
 brew "boost"
 # Bash-Operated Reconciling Kludge
 brew "bork"
+# Install RubyGems as Homebrew formulae
+brew "brew-gem"
 # Freely available high-quality data compressor
 brew "bzip2"
 # Cloud Development Kit for Terraform
@@ -95,8 +100,6 @@ brew "diffstat"
 brew "diffutils"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # TUI Client for Docker
 brew "docui"
 # Replay stored shell commands for live presentations
@@ -105,8 +108,6 @@ brew "doitlive"
 brew "dust"
 # Amazon EC2 AMI Tools (helps bundle Amazon Machine Images)
 brew "ec2-ami-tools"
-# Client interface to the Amazon EC2 web service
-brew "ec2-api-tools"
 # Classic UNIX line editor
 brew "ed", link: true
 # Functional programming language for building browser-based GUIs
@@ -137,18 +138,20 @@ brew "gcc"
 brew "gdk-pixbuf"
 # GitHub command-line tool
 brew "gh"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Command-line utility for uploading Gists
 brew "gist"
 # Prevents you from committing sensitive information to a git repo
 brew "git-secrets"
 # Easy semantic versioning for projects using Git
 brew "gitversion"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Simplified Go project management, dependency management, and vendoring
 brew "glide"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
-# GNU Ubiquitous Intelligent Language for Extensions
-brew "guile"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Generate introspection data for GObject libraries
@@ -157,8 +160,8 @@ brew "gobject-introspection"
 brew "gpatch"
 # Image processing tools collection
 brew "graphicsmagick"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
+# Image manipulation
+brew "netpbm"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
@@ -167,8 +170,12 @@ brew "graphviz"
 brew "grep"
 # GNU troff text-formatting system
 brew "groff"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
 # Popular GNU data compression program
 brew "gzip"
+# Convert HCL2 to JSON
+brew "hcl2json"
 # Kubernetes package manager
 brew "helm"
 # Improved top (interactive process viewer)
@@ -188,7 +195,7 @@ brew "jq"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Kubernetes command-line interface
-brew "kubernetes-cli", link: false
+brew "kubernetes-cli"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Build tool for Clojure
@@ -253,6 +260,8 @@ brew "pv"
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -295,8 +304,6 @@ brew "tldr"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Extract, view, and test RAR archives
-brew "unrar"
 # Extraction utility for .zip compressed archives
 brew "unzip"
 # Bash completion for Vagrant
@@ -327,8 +334,6 @@ brew "zsh-completions"
 brew "zsh-history-substring-search"
 # Tips, tricks, and examples for zsh
 brew "zsh-lovers"
-# Zsh curses-based tools, e.g. multi-word history searcher
-brew "zsh-navigation-tools"
 # Debugger for zsh
 brew "zshdb"
 # Display your Terraform module call stack
@@ -360,6 +365,8 @@ brew "snyk/tap/snyk"
 brew "warrensbox/tap/tfswitch"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Time-frequency browser
+cask "baudline"
 # Download programmes from the BBC iPlayer website
 cask "bbc-iplayer-downloads"
 # Tool to customize input devices and automate computer systems
@@ -382,17 +389,12 @@ cask "discord"
 cask "docker"
 # Draw.io is free online diagram software
 cask "drawio"
-# Client for the Dropbox cloud storage service
-cask "dropbox"
 # Sci-fi themed terminal emulator and system monitor
 cask "edex-ui"
 # Web browser
 cask "firefox"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
-cask "gitter"
-# Web browser
-cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Client for the Google Drive storage service
@@ -411,16 +413,17 @@ cask "lazy"
 cask "licecap"
 # Cable-free audio router
 cask "loopback"
+# File system integration
+cask "macfuse"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Verify system files structure, run miscellaneous maintenance and more
 cask "onyx"
-# File system integration
-cask "osxfuse"
 # Home media player
 cask "plex"
 # OpenVPN client
 cask "pritunl"
+cask "puppet-agent"
 # Native graphical client for the git version control system
 cask "rowanj-gitx"
 # GUI for rsync
@@ -435,8 +438,6 @@ cask "signal"
 cask "sketch"
 # Video chat, voice call and instant messaging application
 cask "skype"
-# Team communication and collaboration software
-cask "slack"
 # Code-based music creation and performance tool
 cask "sonic-pi"
 # Graphical client for Git version control
@@ -445,6 +446,7 @@ cask "sourcetree"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Command-line client for Steam
 cask "steamcmd"
 # Controls screen display settings
 cask "switchresx"
@@ -455,20 +457,14 @@ cask "transmit"
 # Development environment
 cask "vagrant"
 cask "vagrant-manager"
-# Virtualizer for x86 hardware
-cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
-# Create, manage, and run virtual machines
-cask "vmware-fusion"
 # Desktop client for WhatsApp
 cask "whatsapp"
 # HTML to PDF renderer
 cask "wkhtmltopdf"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
-# Video communication and virtual meeting platform
-cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "Air Display", id: 419449718
 mas "Apple Configurator", id: 1037126344
