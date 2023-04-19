@@ -2,6 +2,7 @@ tap "abuxton/tap"
 tap "busser/tap"
 tap "derailed/k9s"
 tap "golangci/tap"
+tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -11,6 +12,7 @@ tap "homebrew/services"
 tap "jesseduffield/lazydocker"
 tap "liamg/tfsec"
 tap "nikaro/tap"
+tap "puppetlabs/puppet"
 tap "replicatedhq/replicated"
 tap "romkatv/powerlevel10k"
 tap "shihanng/tfvar"
@@ -172,6 +174,8 @@ brew "groff"
 brew "guile"
 # Popular GNU data compression program
 brew "gzip"
+# Convert HCL2 to JSON
+brew "hcl2json"
 # Kubernetes package manager
 brew "helm"
 # Improved top (interactive process viewer)
@@ -191,7 +195,7 @@ brew "jq"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Kubernetes command-line interface
-brew "kubernetes-cli", link: false
+brew "kubernetes-cli"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Build tool for Clojure
@@ -258,6 +262,8 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
+# Install various Ruby versions and implementations
+brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
 # Utility that provides fast incremental file transfer
@@ -336,6 +342,8 @@ brew "busser/tap/tftree"
 brew "derailed/k9s/k9s"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
+# Doormat CLI -- Command Line Interface to the Doormat Service
+brew "hashicorp/security/doormat-cli"
 # Boundary
 brew "hashicorp/tap/boundary"
 # A simple terminal UI for docker, written in Go
@@ -415,6 +423,7 @@ cask "onyx"
 cask "plex"
 # OpenVPN client
 cask "pritunl"
+cask "puppet-agent"
 # Native graphical client for the git version control system
 cask "rowanj-gitx"
 # GUI for rsync
@@ -437,6 +446,7 @@ cask "sourcetree"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Command-line client for Steam
 cask "steamcmd"
 # Controls screen display settings
 cask "switchresx"
