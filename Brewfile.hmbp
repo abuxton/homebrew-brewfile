@@ -1,7 +1,9 @@
 tap "abuxton/tap"
 tap "busser/tap"
+tap "carljavier/apps", "git@github.com:carljavier/homebrew-carljavier.git"
 tap "derailed/k9s"
 tap "golangci/tap"
+tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
@@ -22,7 +24,7 @@ tap "snyk/tap"
 tap "warrensbox/tap"
 # Search tool like grep, but optimized for programmers
 brew "ack"
-# Run your GitHub Actions locally 🚀
+# Run your GitHub Actions locally
 brew "act"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
@@ -76,6 +78,8 @@ brew "bork"
 brew "brew-gem"
 # Freely available high-quality data compressor
 brew "bzip2"
+# Platform built on V8 to build network applications
+brew "node"
 # Cloud Development Kit for Terraform
 brew "cdktf"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
@@ -90,8 +94,12 @@ brew "consul"
 brew "coreutils"
 # Get, unpack, build, and install modules from CPAN
 brew "cpanminus"
+# Top-like interface for container metrics
+brew "ctop"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# CLI tool to manage your devcontainers
+brew "devc"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Produce graph of changes introduced by a diff file
@@ -154,6 +162,8 @@ brew "glide"
 brew "gnu-tar"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Task is a task runner/build tool that aims to be simpler and easier to use
+brew "go-task"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # Apply a diff file to an original
@@ -178,6 +188,8 @@ brew "gzip"
 brew "hcl2json"
 # Kubernetes package manager
 brew "helm"
+# Uses CSS selectors to extract bits content from HTML files
+brew "htmlq"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -218,8 +230,6 @@ brew "luajit"
 brew "mad"
 # Utility for directing compilation
 brew "make"
-# Platform built on V8 to build network applications
-brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
 # Mac App Store command-line interface
@@ -338,6 +348,8 @@ brew "zsh-lovers"
 brew "zshdb"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
+# tfm cli -- Command Line Interface to migrate TFE workspace to TFC
+brew "carljavier/apps/tfm"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "derailed/k9s/k9s"
 # Fast linters runner for Go.
@@ -350,8 +362,6 @@ brew "hashicorp/tap/boundary"
 brew "jesseduffield/lazydocker/lazydocker"
 # Static analysis powered security scanner for your terraform code
 brew "liamg/tfsec/tfsec"
-# CLI tool to manage your devcontainers
-brew "nikaro/tap/devc"
 # Package Replicated applications and manage releases, channels, customers and entitlements using a command-line interface.
 brew "replicatedhq/replicated/cli"
 # A Zsh Theme
@@ -387,10 +397,12 @@ cask "deckset"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Draw.io is free online diagram software
+# Online diagram software
 cask "drawio"
 # Sci-fi themed terminal emulator and system monitor
 cask "edex-ui"
+# Collaborative team software
+cask "figma"
 # Web browser
 cask "firefox"
 # Update maps and software, sync with Garmin Connect and register your device
@@ -411,6 +423,8 @@ cask "keybase"
 cask "lazy"
 # Animated screen capture application
 cask "licecap"
+# Screen and video recording software
+cask "loom"
 # Cable-free audio router
 cask "loopback"
 # File system integration
@@ -476,3 +490,35 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
+vscode "AccuricsInc.terrascan-rego-editor"
+vscode "darkriszty.markdown-table-prettify"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "eamodio.gitlens"
+vscode "GitHub.codespaces"
+vscode "GitHub.copilot"
+vscode "GitHub.remotehub"
+vscode "gitlab-ci-hackathon.gitlabciviewer"
+vscode "GitLab.gitlab-workflow"
+vscode "golang.go"
+vscode "Gruntfuggly.todo-tree"
+vscode "hashicorp.hcl"
+vscode "hashicorp.sentinel"
+vscode "hashicorp.terraform"
+vscode "jgsqware.gitlab-ci-templates"
+vscode "kindy.rego"
+vscode "matheusq94.TFS"
+vscode "mindginative.terraform-snippets"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.azure-account"
+vscode "ms-vscode.azure-repos"
+vscode "ms-vscode.makefile-tools"
+vscode "ms-vscode.remote-repositories"
+vscode "pjmiravalle.terraform-advanced-syntax-highlighting"
+vscode "plex.vscode-regolint"
+vscode "redhat.vscode-yaml"
+vscode "run-at-scale.terraform-doc-snippets"
+vscode "tsandall.opa"
+vscode "vscodevim.vim"
+vscode "wayou.vscode-todo-highlight"
+vscode "yzhang.markdown-all-in-one"
