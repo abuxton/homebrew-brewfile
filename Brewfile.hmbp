@@ -328,8 +328,6 @@ brew "tree"
 brew "unzip"
 # Bash completion for Vagrant
 brew "vagrant-completion"
-# Secures, stores, and tightly controls access to secrets
-brew "vault"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
@@ -368,6 +366,21 @@ brew "hashicorp/security/doormat-cli"
 brew "hashicorp/tap/boundary"
 # Consul K8s
 brew "hashicorp/tap/consul-k8s"
+# hc-install CLI
+brew "hashicorp/tap/hc-install"
+# Hcdiag
+brew "hashicorp/tap/hcdiag"
+# Levant
+brew "hashicorp/tap/levant"
+# Nomad Enterprise
+brew "hashicorp/tap/nomad-enterprise", link: false
+# Nomad Pack
+brew "hashicorp/tap/nomad-pack"
+brew "hashicorp/tap/sentinel", link: false
+# Vault
+brew "hashicorp/tap/vault"
+# Vault Enterprise
+brew "hashicorp/tap/vault-enterprise", link: false
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # A toolkit for making coding, documenting, and deploying Terraform simpler.
@@ -423,6 +436,9 @@ cask "garmin-express"
 cask "google-cloud-sdk"
 # Client for the Google Drive storage service
 cask "google-drive"
+cask "hashicorp-boundary-desktop"
+# Development environment
+cask "hashicorp-vagrant"
 # HTTP and GraphQL Client
 cask "insomnia"
 # System monitoring app
@@ -480,8 +496,6 @@ cask "switchresx"
 cask "telegram"
 # File transfer application
 cask "transmit"
-# Development environment
-cask "vagrant"
 cask "vagrant-manager"
 # Open-source code editor
 cask "visual-studio-code"
