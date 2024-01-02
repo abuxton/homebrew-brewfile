@@ -204,6 +204,8 @@ brew "shared-mime-info"
 brew "libheif"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Serializes the output of command-line tools to structured JSON output
+brew "jc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # JSON to TSV converter
@@ -336,8 +338,8 @@ brew "wget"
 brew "whois", link: true
 # Show the current WiFi network password
 brew "wifi-password"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
+# Fork of youtube-dl with additional features and fixes
+brew "yt-dlp"
 # Command-line fuzzy finder that prioritizes matches on filenames
 brew "zf"
 # General-purpose lossless data-compression library
