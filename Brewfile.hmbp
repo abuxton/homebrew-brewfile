@@ -294,6 +294,8 @@ brew "screen"
 brew "shellcheck"
 # Autoformat shell script source code
 brew "shfmt"
+# Work with remote images registries
+brew "skopeo"
 # SOcket CAT: netcat on steroids
 brew "socat"
 # SOund eXchange: universal sound sample translator
@@ -366,6 +368,8 @@ brew "golangci/tap/golangci-lint"
 brew "hashicorp/security/doormat-cli"
 # Boundary
 brew "hashicorp/tap/boundary"
+# Consul Enterprise
+brew "hashicorp/tap/consul-enterprise", link: false
 # Consul K8s
 brew "hashicorp/tap/consul-k8s"
 # hc-install CLI
@@ -518,6 +522,7 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
+mas "‎WhatsApp", id: 310633997
 vscode "AccuricsInc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "amazonwebservices.aws-toolkit-vscode"
