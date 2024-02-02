@@ -126,6 +126,8 @@ brew "elm"
 brew "envconsul"
 # Program that can automate interactive applications
 brew "expect"
+# GNU compiler collection
+brew "gcc"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
@@ -142,8 +144,6 @@ brew "filebeat"
 brew "findutils"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GNU compiler collection
-brew "gcc"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
 # GitHub command-line tool
@@ -212,8 +212,6 @@ brew "jq"
 brew "json2tsv"
 # Little helper to run CNCF's k3s in Docker
 brew "k3d"
-# Run local Kubernetes cluster in Docker
-brew "kind"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 # Simple terminal UI for git commands
