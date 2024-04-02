@@ -28,10 +28,6 @@ brew "ack"
 brew "act"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
-# Python code formatter
-brew "black"
-# Linter for YAML files
-brew "yamllint"
 # Checks ansible playbooks for practices and behaviour
 brew "ansible-lint"
 # Simple system information tool written in Python
@@ -61,7 +57,7 @@ brew "bash-completion"
 # Arbitrary precision numeric processing language
 brew "bc"
 # Core application library for C
-brew "glib"
+brew "glib", link: false
 # Vector graphics library with cross-device output support
 brew "cairo"
 # OpenType text shaping engine
@@ -70,6 +66,8 @@ brew "harfbuzz"
 brew "openjdk"
 # Remove large files or passwords from Git history like git-filter-branch
 brew "bfg"
+# Python code formatter
+brew "black"
 # Collection of portable C++ source libraries
 brew "boost"
 # Bash-Operated Reconciling Kludge
@@ -142,6 +140,8 @@ brew "file-formula"
 brew "filebeat"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
+# Monitor a directory for changes and run a shell command
+brew "fswatch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Toolkit for image loading and pixel buffer manipulation
@@ -198,6 +198,8 @@ brew "htop"
 brew "httpie"
 # Add GitHub support to git on the command-line
 brew "hub"
+# Client library for huggingface.co hub
+brew "huggingface-cli"
 # Database of common MIME types
 brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
@@ -254,6 +256,8 @@ brew "nano"
 brew "ngrep"
 # Distributed, Highly Available, Datacenter-Aware Scheduler
 brew "nomad"
+# Stream the output of any CLI and publish it to a variety of supported platforms
+brew "notify"
 # Simple CLI for interacting with Google oauth tokens
 brew "oauth2l"
 # API for decoding and seeking in .opus files
@@ -340,7 +344,11 @@ brew "wget"
 brew "whois", link: true
 # Show the current WiFi network password
 brew "wifi-password"
-# Fork of youtube-dl with additional features and fixes
+# Linter for YAML files
+brew "yamllint"
+# JavaScript package manager
+brew "yarn"
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Command-line fuzzy finder that prioritizes matches on filenames
 brew "zf"
@@ -438,6 +446,8 @@ cask "figma"
 cask "firefox"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
+# Cross-platform Git credential storage for multiple hosting providers
+cask "git-credential-manager"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Client for the Google Drive storage service
