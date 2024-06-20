@@ -13,6 +13,7 @@ tap "jesseduffield/lazydocker"
 tap "jsoconno/terraflow"
 tap "liamg/tfsec"
 tap "nikaro/tap"
+tap "overmindtech/overmind"
 tap "puppetlabs/puppet"
 tap "replicatedhq/replicated"
 tap "romkatv/powerlevel10k"
@@ -57,7 +58,7 @@ brew "bash-completion"
 # Arbitrary precision numeric processing language
 brew "bc"
 # Core application library for C
-brew "glib", link: false
+brew "glib"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # OpenType text shaping engine
@@ -108,8 +109,6 @@ brew "diffstat"
 brew "diffutils"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
-# TUI Client for Docker
-brew "docui"
 # Replay stored shell commands for live presentations
 brew "doitlive"
 # More intuitive version of du in rust
@@ -124,8 +123,6 @@ brew "elm"
 brew "envconsul"
 # Program that can automate interactive applications
 brew "expect"
-# GNU compiler collection
-brew "gcc"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
@@ -144,6 +141,8 @@ brew "findutils"
 brew "fswatch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU compiler collection
+brew "gcc"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
 # GitHub command-line tool
@@ -401,6 +400,8 @@ brew "jesseduffield/lazydocker/lazydocker"
 brew "jsoconno/terraflow/terraflow"
 # Static analysis powered security scanner for your terraform code
 brew "liamg/tfsec/tfsec"
+# CLI to interact with the Overmind API
+brew "overmindtech/overmind/overmind-cli"
 # Package Replicated applications and manage releases, channels, customers and entitlements using a command-line interface.
 brew "replicatedhq/replicated/cli"
 # Terraform's variable definitions template generator.
@@ -533,6 +534,7 @@ mas "Xcode", id: 497799835
 mas "‎WhatsApp", id: 310633997
 vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
+vscode "amazonwebservices.amazon-q-vscode"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
 vscode "brandontosch.hiera-eyaml"
@@ -551,6 +553,7 @@ vscode "eriklynd.json-tools"
 vscode "felipecaputo.git-project-manager"
 vscode "formulahendry.docker-explorer"
 vscode "foxundermoon.shell-format"
+vscode "funkyremi.vscode-google-translate"
 vscode "george-alisson.html-preview-vscode"
 vscode "github.codespaces"
 vscode "github.copilot"
@@ -583,6 +586,7 @@ vscode "marklarah.pre-commit-vscode"
 vscode "matheusq94.tfs"
 vscode "mindginative.terraform-snippets"
 vscode "mohsen1.prettify-json"
+vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-azuretools.vscode-azureterraform"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
