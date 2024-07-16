@@ -9,9 +9,11 @@ tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-drivers"
 tap "homebrew/services"
+tap "jameswoolfenden/tap"
 tap "jesseduffield/lazydocker"
 tap "jsoconno/terraflow"
 tap "liamg/tfsec"
+tap "minio/stable"
 tap "nikaro/tap"
 tap "overmindtech/overmind"
 tap "puppetlabs/puppet"
@@ -83,6 +85,8 @@ brew "node"
 brew "cdktf"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
+# Automated changelog tool for preparing releases
+brew "changie"
 # Statistics utility to count lines of code
 brew "cloc"
 # Cross-platform make
@@ -213,6 +217,8 @@ brew "jq"
 brew "json2tsv"
 # Little helper to run CNCF's k3s in Docker
 brew "k3d"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Kubernetes command-line interface
@@ -367,8 +373,6 @@ brew "zsh-lovers"
 brew "zshdb"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
-# Kubernetes CLI To Manage Your Clusters In Style!
-brew "derailed/k9s/k9s"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # Doormat CLI -- Command Line Interface to the Doormat Service
@@ -394,12 +398,16 @@ brew "hashicorp/tap/sentinel", link: false
 brew "hashicorp/tap/vault"
 # Vault Enterprise
 brew "hashicorp/tap/vault-enterprise", link: false
+# Pike is a tool for determining the permissions or policy required for IAC code
+brew "jameswoolfenden/tap/pike"
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker"
 # A toolkit for making coding, documenting, and deploying Terraform simpler.
 brew "jsoconno/terraflow/terraflow"
 # Static analysis powered security scanner for your terraform code
 brew "liamg/tfsec/tfsec"
+# MinIO Client for object storage and filesystems
+brew "minio/stable/mc"
 # CLI to interact with the Overmind API
 brew "overmindtech/overmind/overmind-cli"
 # Package Replicated applications and manage releases, channels, customers and entitlements using a command-line interface.
@@ -534,7 +542,6 @@ mas "Xcode", id: 497799835
 mas "‎WhatsApp", id: 310633997
 vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
-vscode "amazonwebservices.amazon-q-vscode"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
 vscode "brandontosch.hiera-eyaml"
