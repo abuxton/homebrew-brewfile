@@ -173,6 +173,10 @@ brew "go-task"
 brew "gobject-introspection"
 # Apply a diff file to an original
 brew "gpatch"
+# Database of common MIME types
+brew "shared-mime-info"
+# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "libheif"
 # Image processing tools collection
 brew "graphicsmagick"
 # Image manipulation
@@ -203,10 +207,6 @@ brew "httpie"
 brew "hub"
 # Client library for huggingface.co hub
 brew "huggingface-cli"
-# Database of common MIME types
-brew "shared-mime-info"
-# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
-brew "libheif"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Serializes the output of command-line tools to structured JSON output
