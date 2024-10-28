@@ -267,6 +267,8 @@ brew "nomad"
 brew "notify"
 # Simple CLI for interacting with Google oauth tokens
 brew "oauth2l"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
 # API for decoding and seeking in .opus files
 brew "opusfile"
 # 7-Zip (high compression file archiver) implementation
@@ -530,6 +532,8 @@ cask "vagrant-manager"
 cask "vagrant-vmware-utility"
 # Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # HTML to PDF renderer
