@@ -234,9 +234,11 @@ brew "libiconv"
 # General purpose TCP-IP emulator
 brew "libslirp"
 # C virtualization API
-brew "libvirt", restart_service: true
+brew "libvirt", restart_service: :changed
 # C XSLT library for GNOME
 brew "libxslt"
+# High-performance, extensible alternative to ls
+brew "lla"
 # Utility to list open files
 brew "lsof"
 # Powerful, lightweight programming language
@@ -335,8 +337,6 @@ brew "terragrunt"
 brew "tflint"
 # tfm cli -- Command Line Interface to migrate TFE workspace to TFC
 brew "tfm"
-# Programmatically correct mistyped console commands
-brew "thefuck"
 # Framework for scalable cross-language services development
 brew "thrift"
 # Simplified and community-driven man pages
@@ -550,13 +550,14 @@ mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
-mas "‎WhatsApp", id: 310633997
 vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
 vscode "brandontosch.hiera-eyaml"
+vscode "caponetto.vscode-diff-viewer"
 vscode "castwide.solargraph"
 vscode "compilenix.vscode-zonefile"
 vscode "cordsen.ssync-files"
@@ -583,6 +584,7 @@ vscode "github.vscode-pull-request-github"
 vscode "gitlab-ci-hackathon.gitlabciviewer"
 vscode "gitlab.gitlab-workflow"
 vscode "golang.go"
+vscode "google.geminicodeassist"
 vscode "googlecloudtools.cloudcode"
 vscode "gruntfuggly.todo-tree"
 vscode "hangxingliu.vscode-nginx-conf-hint"
@@ -605,9 +607,11 @@ vscode "marklarah.pre-commit-vscode"
 vscode "matheusq94.tfs"
 vscode "mindginative.terraform-snippets"
 vscode "mohsen1.prettify-json"
+vscode "ms-azuretools.vscode-azure-github-copilot"
 vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-azuretools.vscode-azureterraform"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
@@ -623,6 +627,7 @@ vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.makefile-tools"
 vscode "ms-vscode.remote-repositories"
 vscode "naco-siren.gradle-language"
+vscode "njpwerner.autodocstring"
 vscode "owenfarrell.vscode-vault"
 vscode "p1c2u.docker-compose"
 vscode "pjmiravalle.terraform-advanced-syntax-highlighting"
