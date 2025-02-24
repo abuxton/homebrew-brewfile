@@ -127,6 +127,10 @@ brew "elm"
 brew "envconsul"
 # Program that can automate interactive applications
 brew "expect"
+# Library and command-line tool for SSH
+brew "fabric"
+# Installer for Fabric for the vanilla launcher
+brew "fabric-installer"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
@@ -490,6 +494,8 @@ cask "loom"
 cask "loopback"
 # File system integration
 cask "macfuse"
+# Sandbox construction video game
+cask "minecraft"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Home media player
