@@ -1,14 +1,10 @@
 tap "abuxton/tap"
 tap "busser/tap"
-tap "carljavier/apps", "git@github.com:carljavier/homebrew-carljavier.git"
 tap "derailed/k9s"
 tap "golangci/tap"
 tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
-tap "homebrew/bundle"
-tap "homebrew/cask-drivers"
-tap "homebrew/services"
 tap "jameswoolfenden/tap"
 tap "jesseduffield/lazydocker"
 tap "jsoconno/terraflow"
@@ -29,6 +25,8 @@ tap "warrensbox/tap"
 brew "ack"
 # Run your GitHub Actions locally
 brew "act"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -93,8 +91,6 @@ brew "cloc"
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
-# Tool for service discovery, monitoring and configuration
-brew "consul"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get, unpack, build, and install modules from CPAN
@@ -103,28 +99,20 @@ brew "cpanminus"
 brew "ctop"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# CLI tool to manage your devcontainers
-brew "devc"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Produce graph of changes introduced by a diff file
 brew "diffstat"
 # File comparison utilities
 brew "diffutils"
-# Pack, ship and run any application as a lightweight container
-brew "docker", link: false
 # Replay stored shell commands for live presentations
 brew "doitlive"
 # More intuitive version of du in rust
 brew "dust"
-# Amazon EC2 AMI Tools (helps bundle Amazon Machine Images)
-brew "ec2-ami-tools"
 # Classic UNIX line editor
 brew "ed", link: true
 # Functional programming language for building browser-based GUIs
 brew "elm"
-# Launch process with environment variables from Consul and Vault
-brew "envconsul"
 # Program that can automate interactive applications
 brew "expect"
 # Library and command-line tool for SSH
@@ -163,14 +151,12 @@ brew "gist"
 brew "git-secrets"
 # Easy semantic versioning for projects using Git
 brew "gitversion"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Simplified Go project management, dependency management, and vendoring
-brew "glide"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Task is a task runner/build tool that aims to be simpler and easier to use
 brew "go-task"
 # Generate introspection data for GObject libraries
@@ -267,8 +253,6 @@ brew "mkdocs"
 brew "nano"
 # Network grep
 brew "ngrep"
-# Distributed, Highly Available, Datacenter-Aware Scheduler
-brew "nomad"
 # Stream the output of any CLI and publish it to a variety of supported platforms
 brew "notify"
 # Simple CLI for interacting with Google oauth tokens
@@ -279,8 +263,6 @@ brew "ollama"
 brew "opusfile"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
-# Tool for creating identical machine images for multiple platforms
-brew "packer"
 # Bash completion for Packer
 brew "packer-completion"
 # Swiss-army knife of markup format conversion
@@ -301,8 +283,6 @@ brew "pv"
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Install various Ruby versions and implementations
@@ -339,8 +319,8 @@ brew "terraformer"
 brew "terragrunt"
 # Linter for Terraform files
 brew "tflint"
-# tfm cli -- Command Line Interface to migrate TFE workspace to TFC
-brew "tfm"
+# Programmatically correct mistyped console commands
+brew "thefuck"
 # Framework for scalable cross-language services development
 brew "thrift"
 # Simplified and community-driven man pages
@@ -351,8 +331,6 @@ brew "tmux"
 brew "tree"
 # Extraction utility for .zip compressed archives
 brew "unzip"
-# Bash completion for Vagrant
-brew "vagrant-completion"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
@@ -371,6 +349,8 @@ brew "yt-dlp"
 brew "zf"
 # General-purpose lossless data-compression library
 brew "zlib"
+# Next-generation plugin manager for zsh
+brew "zplug"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -391,10 +371,14 @@ brew "golangci/tap/golangci-lint"
 brew "hashicorp/security/doormat-cli"
 # Boundary
 brew "hashicorp/tap/boundary"
+# Consul
+brew "hashicorp/tap/consul"
 # Consul Enterprise
 brew "hashicorp/tap/consul-enterprise", link: false
 # Consul K8s
 brew "hashicorp/tap/consul-k8s"
+# Env Consul
+brew "hashicorp/tap/envconsul"
 # hc-install CLI
 brew "hashicorp/tap/hc-install"
 # Hcdiag
@@ -435,10 +419,6 @@ brew "thecasualcoder/stable/tf-summarize"
 brew "warrensbox/tap/tfswitch"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Time-frequency browser
-cask "baudline"
-# Download programmes from the BBC iPlayer website
-cask "bbc-iplayer-downloads"
 # Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
 # Utility to create and modify archives
@@ -455,12 +435,8 @@ cask "dash"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerised applications and microservices
-cask "docker"
 # Online diagram software
 cask "drawio"
-# Sci-fi themed terminal emulator and system monitor
-cask "edex-ui"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -484,8 +460,6 @@ cask "istat-menus"
 cask "iterm2"
 # End-to-end encryption software
 cask "keybase"
-# Control your environment from your keyboard
-cask "lazy"
 # Animated screen capture application
 cask "licecap"
 # Screen and video recording software
@@ -503,8 +477,6 @@ cask "plex"
 # OpenVPN client
 cask "pritunl"
 cask "puppet-agent"
-# Native graphical client for the git version control system
-cask "rowanj-gitx"
 # GUI for rsync
 cask "rsyncosx"
 # Word processing software with a typewriter style
@@ -542,29 +514,15 @@ cask "visual-studio-code"
 cask "vlc"
 # Native desktop client for WhatsApp
 cask "whatsapp"
-# HTML to PDF renderer
-cask "wkhtmltopdf"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
-mas "1Password 7", id: 1333542190
-mas "Air Display", id: 419449718
-mas "Apple Configurator", id: 1037126344
-mas "Deckset", id: 847496013
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "WhatsApp", id: 310633997
-mas "Xcode", id: 497799835
 vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
-vscode "brandontosch.hiera-eyaml"
 vscode "caponetto.vscode-diff-viewer"
 vscode "castwide.solargraph"
+vscode "chef-software.chef"
 vscode "compilenix.vscode-zonefile"
 vscode "cordsen.ssync-files"
 vscode "d4nyll.devops-extension-pack"
@@ -599,11 +557,13 @@ vscode "hashicorp.sentinel"
 vscode "hashicorp.terraform"
 vscode "hediet.vscode-drawio"
 vscode "henriiik.docker-linter"
+vscode "heptio.jsonnet"
 vscode "humao.rest-client"
 vscode "ibm.output-colorizer"
 vscode "ipedrazas.kubernetes-snippets"
 vscode "ivory-lab.jenkinsfile-support"
 vscode "jgsqware.gitlab-ci-templates"
+vscode "jpogran.puppet-vscode"
 vscode "kaisun.vscodevimacademy"
 vscode "kindy.rego"
 vscode "mads-hartmann.bash-ide-vscode"
@@ -623,6 +583,10 @@ vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
@@ -631,7 +595,9 @@ vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.azure-account"
 vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.makefile-tools"
+vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-repositories"
+vscode "ms-vscode.remote-server"
 vscode "naco-siren.gradle-language"
 vscode "njpwerner.autodocstring"
 vscode "owenfarrell.vscode-vault"
@@ -641,6 +607,7 @@ vscode "plex.vscode-regolint"
 vscode "qezhu.gitlink"
 vscode "randomchance.logstash"
 vscode "raynigon.nginx-formatter"
+vscode "rebornix.ruby"
 vscode "redhat.ansible"
 vscode "redhat.vscode-commons"
 vscode "redhat.vscode-yaml"
@@ -661,6 +628,17 @@ vscode "vscodevim.vim"
 vscode "waderyan.gitblame"
 vscode "wayou.vscode-todo-highlight"
 vscode "william-voyek.vscode-nginx"
+vscode "wingrunr21.vscode-ruby"
 vscode "wmontalvo.vsc-jsonsnippets"
 vscode "yzhang.markdown-all-in-one"
 vscode "ziishaned.livereload"
+mas "1Password 7", id: 1333542190
+mas "Air Display", id: 419449718
+mas "Apple Configurator", id: 1037126344
+mas "Deckset", id: 847496013
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
