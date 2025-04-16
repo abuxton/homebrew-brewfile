@@ -386,7 +386,7 @@ brew "hashicorp/tap/hcdiag"
 # Levant
 brew "hashicorp/tap/levant"
 # Nomad Enterprise
-brew "hashicorp/tap/nomad-enterprise", link: false
+brew "hashicorp/tap/nomad-enterprise"
 # Nomad Pack
 brew "hashicorp/tap/nomad-pack"
 brew "hashicorp/tap/sentinel", link: false
@@ -425,8 +425,6 @@ cask "bettertouchtool"
 cask "betterzip"
 # Client for the Box cloud storage service
 cask "box-drive"
-# Utility that prevents the system from going to sleep
-cask "caffeine"
 # Web debugging Proxy application
 cask "charles"
 # API documentation browser and code snippet manager
@@ -452,8 +450,6 @@ cask "google-drive"
 cask "hashicorp-boundary-desktop"
 # Development environment
 cask "hashicorp-vagrant"
-# HTTP and GraphQL Client
-cask "insomnia"
 # System monitoring app
 cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -472,23 +468,17 @@ cask "macfuse"
 cask "minecraft"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Home media player
-cask "plex"
 # OpenVPN client
 cask "pritunl"
 cask "puppet-agent"
 # GUI for rsync
 cask "rsyncosx"
-# Word processing software with a typewriter style
-cask "scrivener"
 # Language and framework for policy as code
 cask "sentinel"
 # Instant messaging application focusing on security
 cask "signal"
 # Digital design and prototyping platform
 cask "sketch"
-# Video chat, voice call and instant messaging application
-cask "skype"
 # Code-based music creation and performance tool
 cask "sonic-pi"
 # Graphical client for Git version control
@@ -512,29 +502,35 @@ cask "vagrant-vmware-utility"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# Native desktop client for WhatsApp
-cask "whatsapp"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
+mas "1Password 7", id: 1333542190
+mas "Apple Configurator", id: 1037126344
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Windows App", id: 1295203466
+mas "Xcode", id: 497799835
 vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
 vscode "caponetto.vscode-diff-viewer"
 vscode "castwide.solargraph"
-vscode "chef-software.chef"
 vscode "compilenix.vscode-zonefile"
 vscode "cordsen.ssync-files"
 vscode "d4nyll.devops-extension-pack"
 vscode "darkriszty.markdown-table-prettify"
 vscode "davidanson.vscode-markdownlint"
+vscode "docker.docker"
 vscode "donjayamanne.githistory"
 vscode "dotjoshjohnson.xml"
 vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "emilast.logfilehighlighter"
 vscode "eriklynd.json-tools"
-vscode "felipecaputo.git-project-manager"
 vscode "formulahendry.docker-explorer"
 vscode "foxundermoon.shell-format"
 vscode "funkyremi.vscode-google-translate"
@@ -557,13 +553,11 @@ vscode "hashicorp.sentinel"
 vscode "hashicorp.terraform"
 vscode "hediet.vscode-drawio"
 vscode "henriiik.docker-linter"
-vscode "heptio.jsonnet"
 vscode "humao.rest-client"
 vscode "ibm.output-colorizer"
 vscode "ipedrazas.kubernetes-snippets"
 vscode "ivory-lab.jenkinsfile-support"
 vscode "jgsqware.gitlab-ci-templates"
-vscode "jpogran.puppet-vscode"
 vscode "kaisun.vscodevimacademy"
 vscode "kindy.rego"
 vscode "mads-hartmann.bash-ide-vscode"
@@ -573,11 +567,9 @@ vscode "marklarah.pre-commit-vscode"
 vscode "matheusq94.tfs"
 vscode "mindginative.terraform-snippets"
 vscode "mohsen1.prettify-json"
-vscode "ms-azuretools.vscode-azure-github-copilot"
 vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-azuretools.vscode-azureterraform"
 vscode "ms-azuretools.vscode-docker"
-vscode "ms-dotnettools.vscode-dotnet-runtime"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
@@ -592,7 +584,6 @@ vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode-remote.remote-wsl"
 vscode "ms-vscode-remote.vscode-remote-extensionpack"
-vscode "ms-vscode.azure-account"
 vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.makefile-tools"
 vscode "ms-vscode.remote-explorer"
@@ -607,7 +598,6 @@ vscode "plex.vscode-regolint"
 vscode "qezhu.gitlink"
 vscode "randomchance.logstash"
 vscode "raynigon.nginx-formatter"
-vscode "rebornix.ruby"
 vscode "redhat.ansible"
 vscode "redhat.vscode-commons"
 vscode "redhat.vscode-yaml"
@@ -628,7 +618,6 @@ vscode "vscodevim.vim"
 vscode "waderyan.gitblame"
 vscode "wayou.vscode-todo-highlight"
 vscode "william-voyek.vscode-nginx"
-vscode "wingrunr21.vscode-ruby"
 vscode "wmontalvo.vsc-jsonsnippets"
 vscode "yzhang.markdown-all-in-one"
 vscode "ziishaned.livereload"

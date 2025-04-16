@@ -5,6 +5,7 @@ tap "golangci/tap"
 tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
+tap "instruqt/tap"
 tap "jameswoolfenden/tap"
 tap "jesseduffield/lazydocker"
 tap "jsoconno/terraflow"
@@ -394,6 +395,8 @@ brew "hashicorp/tap/sentinel", link: false
 brew "hashicorp/tap/vault"
 # Vault Enterprise
 brew "hashicorp/tap/vault-enterprise", link: false
+# Instruqt CLI
+brew "instruqt/tap/instruqt"
 # Pike is a tool for determining the permissions or policy required for IAC code
 brew "jameswoolfenden/tap/pike"
 # A simple terminal UI for docker, written in Go
