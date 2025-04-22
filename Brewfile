@@ -409,8 +409,6 @@ brew "liamg/tfsec/tfsec"
 brew "minio/stable/mc"
 # CLI to interact with the Overmind API
 brew "overmindtech/overmind/overmind-cli"
-# Package Replicated applications and manage releases, channels, customers and entitlements using a command-line interface.
-brew "replicatedhq/replicated/cli"
 # Terraform's variable definitions template generator.
 brew "shihanng/tfvar/tfvar"
 brew "shipyard-run/repo/shipyard"
