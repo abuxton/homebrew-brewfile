@@ -270,6 +270,8 @@ brew "packer-completion"
 brew "pandoc"
 # Python dependency management tool
 brew "pipenv"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Generate podman quadlet files from a podman command or compose file
 brew "podlet"
 # Tool for managing OCI containers and pods
@@ -332,6 +334,8 @@ brew "tmux"
 brew "tree"
 # Extraction utility for .zip compressed archives
 brew "unzip"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
@@ -344,6 +348,8 @@ brew "wifi-password"
 brew "yamllint"
 # JavaScript package manager
 brew "yarn"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Command-line fuzzy finder that prioritizes matches on filenames
@@ -428,6 +434,8 @@ cask "betterzip"
 cask "box-drive"
 # Web debugging Proxy application
 cask "charles"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # API documentation browser and code snippet manager
 cask "dash"
 # Presentations from Markdown
@@ -505,7 +513,6 @@ cask "visual-studio-code"
 cask "vlc"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
-mas "1Password 7", id: 1333542190
 mas "Apple Configurator", id: 1037126344
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
