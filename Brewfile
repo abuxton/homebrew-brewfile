@@ -27,7 +27,7 @@ brew "ack"
 # Run your GitHub Actions locally
 brew "act"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
+brew "python@3.13", link: false
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
