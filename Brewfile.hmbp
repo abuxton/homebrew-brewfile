@@ -5,6 +5,7 @@ tap "golangci/tap"
 tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
+tap "instruqt/tap"
 tap "jameswoolfenden/tap"
 tap "jesseduffield/lazydocker"
 tap "jsoconno/terraflow"
@@ -26,7 +27,7 @@ brew "ack"
 # Run your GitHub Actions locally
 brew "act"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
+brew "python@3.13", link: false
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -269,6 +270,8 @@ brew "packer-completion"
 brew "pandoc"
 # Python dependency management tool
 brew "pipenv"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Generate podman quadlet files from a podman command or compose file
 brew "podlet"
 # Tool for managing OCI containers and pods
@@ -331,6 +334,8 @@ brew "tmux"
 brew "tree"
 # Extraction utility for .zip compressed archives
 brew "unzip"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
@@ -343,6 +348,8 @@ brew "wifi-password"
 brew "yamllint"
 # JavaScript package manager
 brew "yarn"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Command-line fuzzy finder that prioritizes matches on filenames
@@ -389,11 +396,15 @@ brew "hashicorp/tap/levant"
 brew "hashicorp/tap/nomad-enterprise"
 # Nomad Pack
 brew "hashicorp/tap/nomad-pack"
+# Packer
+brew "hashicorp/tap/packer"
 brew "hashicorp/tap/sentinel", link: false
 # Vault
 brew "hashicorp/tap/vault"
 # Vault Enterprise
 brew "hashicorp/tap/vault-enterprise", link: false
+# Instruqt CLI
+brew "instruqt/tap/instruqt"
 # Pike is a tool for determining the permissions or policy required for IAC code
 brew "jameswoolfenden/tap/pike"
 # A simple terminal UI for docker, written in Go
@@ -406,8 +417,6 @@ brew "liamg/tfsec/tfsec"
 brew "minio/stable/mc"
 # CLI to interact with the Overmind API
 brew "overmindtech/overmind/overmind-cli"
-# Package Replicated applications and manage releases, channels, customers and entitlements using a command-line interface.
-brew "replicatedhq/replicated/cli"
 # Terraform's variable definitions template generator.
 brew "shihanng/tfvar/tfvar"
 brew "shipyard-run/repo/shipyard"
@@ -427,6 +436,8 @@ cask "betterzip"
 cask "box-drive"
 # Web debugging Proxy application
 cask "charles"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # API documentation browser and code snippet manager
 cask "dash"
 # Presentations from Markdown
@@ -504,7 +515,6 @@ cask "visual-studio-code"
 cask "vlc"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
-mas "1Password 7", id: 1333542190
 mas "Apple Configurator", id: 1037126344
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
@@ -569,6 +579,7 @@ vscode "mindginative.terraform-snippets"
 vscode "mohsen1.prettify-json"
 vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-azuretools.vscode-azureterraform"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-python.debugpy"
