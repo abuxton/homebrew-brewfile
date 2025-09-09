@@ -28,6 +28,8 @@ brew "ack"
 brew "act"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13", link: false
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -245,7 +247,7 @@ brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Hash utilities
-brew "md5sha1sum", link: false
+brew "md5sha1sum"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Project documentation with Markdown
@@ -332,8 +334,6 @@ brew "thrift"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
 # Extraction utility for .zip compressed archives
 brew "unzip"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -508,6 +508,8 @@ cask "switchresx"
 cask "telegram"
 # File transfer application
 cask "transmit"
+# 3D printer and slicing GUI
+cask "ultimaker-cura"
 cask "vagrant-manager"
 # Gives Vagrant VMware plugin access to various VMware functionalities
 cask "vagrant-vmware-utility"
