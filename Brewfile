@@ -1,5 +1,6 @@
 tap "abuxton/tap"
 tap "busser/tap"
+tap "cyberark/tools"
 tap "derailed/k9s"
 tap "golangci/tap"
 tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
@@ -42,6 +43,8 @@ brew "asciinema"
 brew "aspell"
 # Configuration editing tool and API
 brew "augeas"
+# ASCII-art image browser and animation viewer
+brew "aview"
 # Text processing scripting language
 brew "awk"
 # AWS SDK for C++
@@ -130,12 +133,16 @@ brew "gnutls"
 brew "pango"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Banner-like program prints strings as ASCII art
+brew "figlet"
 # Utility to determine file types
 brew "file-formula"
 # File harvester to ship log files to Elasticsearch or Logstash
 brew "filebeat"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
+# Infamous electronic fortune-cookie generator
+brew "fortune"
 # Monitor a directory for changes and run a shell command
 brew "fswatch"
 # Command-line fuzzy finder written in Go
@@ -232,6 +239,8 @@ brew "libvirt", restart_service: :changed
 brew "libxslt"
 # High-performance, extensible alternative to ls
 brew "lla"
+# Rainbows and unicorns in your console!
+brew "lolcat"
 # Utility to list open files
 brew "lsof"
 # Powerful, lightweight programming language
@@ -288,6 +297,8 @@ brew "pv"
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
+# Tab completion for Python argparse
+brew "python-argcomplete"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Install various Ruby versions and implementations
@@ -334,6 +345,8 @@ brew "thrift"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
 # Extraction utility for .zip compressed archives
 brew "unzip"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -374,6 +387,8 @@ brew "zsh-lovers"
 brew "zshdb"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
+# Terraform provider for CyberArk Conjur
+brew "cyberark/tools/terraform-provider-conjur"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # Doormat CLI -- Command Line Interface to the Doormat Service
@@ -405,6 +420,8 @@ brew "hashicorp/tap/sentinel", link: false
 brew "hashicorp/tap/vault"
 # Vault Enterprise
 brew "hashicorp/tap/vault-enterprise", link: false
+# Vault Radar
+brew "hashicorp/tap/vault-radar"
 # Instruqt CLI
 brew "instruqt/tap/instruqt"
 # Pike is a tool for determining the permissions or policy required for IAC code
@@ -484,6 +501,8 @@ cask "obsidian"
 # OpenVPN client
 cask "pritunl"
 cask "puppet-agent"
+# Kubernetes and container management on the desktop
+cask "rancher"
 # GUI for rsync
 cask "rsyncosx"
 # Language and framework for policy as code
@@ -502,14 +521,14 @@ cask "spotify"
 cask "steam"
 # Command-line client for Steam
 cask "steamcmd"
+# Quick Look plugin to preview .strings files
+cask "stringsfile"
 # Controls screen display settings
 cask "switchresx"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # File transfer application
 cask "transmit"
-# 3D printer and slicing GUI
-cask "ultimaker-cura"
 cask "vagrant-manager"
 # Gives Vagrant VMware plugin access to various VMware functionalities
 cask "vagrant-vmware-utility"
