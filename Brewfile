@@ -387,7 +387,7 @@ brew "zsh-lovers"
 brew "zshdb"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
-# Terraform provider for CyberArk Conjur
+# Terraform provider for CyberArk Secrets Manager
 brew "cyberark/tools/terraform-provider-conjur"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
@@ -657,3 +657,10 @@ vscode "william-voyek.vscode-nginx"
 vscode "wmontalvo.vsc-jsonsnippets"
 vscode "yzhang.markdown-all-in-one"
 vscode "ziishaned.livereload"
+go "golang.org/x/lint/golint"
+go "github.com/mattn/gom"
+go "golang.org/x/tools/gopls"
+go "github.com/nao1215/gup"
+go "github.com/gulyasm/jsonui"
+go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/straubt1/tfx"
