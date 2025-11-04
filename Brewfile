@@ -83,8 +83,6 @@ brew "bork"
 brew "brew-gem"
 # Freely available high-quality data compressor
 brew "bzip2"
-# Platform built on V8 to build network applications
-brew "node"
 # Cloud Development Kit for Terraform
 brew "cdktf"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
@@ -251,6 +249,8 @@ brew "luajit"
 brew "mad"
 # Utility for directing compilation
 brew "make"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
 # Mac App Store command-line interface
@@ -275,8 +275,6 @@ brew "ollama"
 brew "opusfile"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
-# Bash completion for Packer
-brew "packer-completion"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Python dependency management tool
@@ -341,8 +339,6 @@ brew "tflint"
 brew "thefuck"
 # Framework for scalable cross-language services development
 brew "thrift"
-# Simplified and community-driven man pages
-brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # Manage complex tmux sessions easily
@@ -387,8 +383,6 @@ brew "zsh-lovers"
 brew "zshdb"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
-# Terraform provider for CyberArk Secrets Manager
-brew "cyberark/tools/terraform-provider-conjur"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # Doormat CLI -- Command Line Interface to the Doormat Service
@@ -503,8 +497,6 @@ cask "pritunl"
 cask "puppet-agent"
 # Kubernetes and container management on the desktop
 cask "rancher"
-# GUI for rsync
-cask "rsyncosx"
 # Language and framework for policy as code
 cask "sentinel"
 # Instant messaging application focusing on security
@@ -521,15 +513,12 @@ cask "spotify"
 cask "steam"
 # Command-line client for Steam
 cask "steamcmd"
-# Quick Look plugin to preview .strings files
-cask "stringsfile"
 # Controls screen display settings
 cask "switchresx"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # File transfer application
 cask "transmit"
-cask "vagrant-manager"
 # Gives Vagrant VMware plugin access to various VMware functionalities
 cask "vagrant-vmware-utility"
 # Open-source code editor
