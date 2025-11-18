@@ -27,6 +27,8 @@ tap "warrensbox/tap"
 brew "ack"
 # Run your GitHub Actions locally
 brew "act"
+# Asciicast to GIF converter
+brew "agg"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13", link: false
 # Display directories as trees (with optional color/HTML output)
@@ -499,6 +501,10 @@ cask "puppet-agent"
 cask "rancher"
 # Language and framework for policy as code
 cask "sentinel"
+# Onion routing based messenger
+cask "session"
+# Plugin for AWS CLI to start and end sessions that connect to managed instances
+cask "session-manager-plugin"
 # Instant messaging application focusing on security
 cask "signal"
 # Digital design and prototyping platform
