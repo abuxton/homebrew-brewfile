@@ -29,14 +29,14 @@ brew "ack"
 brew "act"
 # Asciicast to GIF converter
 brew "agg"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13", link: false
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
 brew "ansible-lint"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13", link: false
 # Simple system information tool written in Python
 brew "archey4"
 # Record and share terminal sessions
