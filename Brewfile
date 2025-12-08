@@ -1,5 +1,6 @@
 tap "abuxton/tap"
 tap "busser/tap"
+tap "busy-tag/busytag"
 tap "cyberark/tools"
 tap "derailed/k9s"
 tap "golangci/tap"
@@ -93,6 +94,8 @@ brew "certbot"
 brew "changie"
 # Statistics utility to count lines of code
 brew "cloc"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Cross-platform make
 brew "cmake"
 # Console Matrix
@@ -262,7 +265,9 @@ brew "md5sha1sum"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Project documentation with Markdown
-brew "mkdocs"
+brew "mkdocs", link: false
+# Material Design theme for MkDocs
+brew "mkdocs-material"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Network grep
@@ -309,6 +314,10 @@ brew "rbenv"
 brew "renovate"
 # Utility that provides fast incremental file transfer
 brew "rsync"
+# Safe, concurrent, practical language
+brew "rust"
+# Rust toolchain installer
+brew "rustup"
 # Terminal multiplexer with VT100/ANSI terminal emulation
 brew "screen"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -385,8 +394,12 @@ brew "zsh-lovers"
 brew "zshdb"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
+# Command-line interface for BusyTag device management
+brew "busy-tag/busytag/busytag-cli"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
+# hcqr -- Generate QR codes featuring the HashiCorp logo
+brew "hashicorp/internal/hcqr"
 # Doormat CLI -- Command Line Interface to the Doormat Service
 brew "hashicorp/security/doormat-cli"
 # Boundary
@@ -453,6 +466,8 @@ cask "box-drive"
 cask "charles"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Brings the power of Copilot coding agent directly to your terminal
+cask "copilot-cli"
 # API documentation browser and code snippet manager
 cask "dash"
 # Presentations from Markdown
@@ -542,6 +557,7 @@ mas "Pages", id: 409201541
 mas "WhatsApp", id: 310633997
 mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
+vscode "1yib.rust-bundle"
 vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "amazonwebservices.aws-toolkit-vscode"
@@ -556,6 +572,7 @@ vscode "davidanson.vscode-markdownlint"
 vscode "docker.docker"
 vscode "donjayamanne.githistory"
 vscode "dotjoshjohnson.xml"
+vscode "dustypomerleau.rust-syntax"
 vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "emilast.logfilehighlighter"
@@ -636,7 +653,9 @@ vscode "richie5um2.vscode-sort-json"
 vscode "rogalmic.bash-debug"
 vscode "rogalmic.zsh-debug"
 vscode "run-at-scale.terraform-doc-snippets"
+vscode "rust-lang.rust-analyzer"
 vscode "sahmed.terraform-comments-beautifier"
+vscode "serayuzgur.crates"
 vscode "shakram02.bash-beautify"
 vscode "shopify.ruby-lsp"
 vscode "softwaredotcom.music-time"
