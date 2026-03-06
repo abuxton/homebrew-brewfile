@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "homebrew": {
+      "source": "thinkfleetai/thinkfleet-engine",
+      "sourceType": "github",
+      "computedHash": "006285dcdac6335a0e7f273bd386263c1bcf983b3d00f14948a615b5fecd715c"
+    }
+  }
+}

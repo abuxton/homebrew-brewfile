@@ -65,6 +65,8 @@ brew "azure-cli"
 brew "bash"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Arbitrary precision numeric processing language
 brew "bc"
 # Core application library for C
@@ -129,6 +131,8 @@ brew "expect"
 brew "fabric"
 # Installer for Fabric for the vanilla launcher
 brew "fabric-installer"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Banner-like program prints strings as ASCII art
@@ -157,6 +161,8 @@ brew "pango"
 brew "ghostscript"
 # Command-line utility for uploading Gists
 brew "gist"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
 # Prevents you from committing sensitive information to a git repo
 brew "git-secrets"
 # Easy semantic versioning for projects using Git
@@ -319,6 +325,8 @@ brew "rbenv"
 brew "re2"
 # Automated dependency updates. Flexible so you don't need to be
 brew "renovate"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Utility that provides fast incremental file transfer
 brew "rsync"
 # Safe, concurrent, practical language
@@ -343,6 +351,8 @@ brew "speedtest-cli"
 brew "ssh-copy-id", link: true
 # Command-line packet analyzer
 brew "tcpdump"
+# General purpose fuzzy finder TUI
+brew "television"
 # User interface to the TELNET protocol
 brew "telnet"
 # Tool to generate documentation from Terraform modules
@@ -405,8 +415,6 @@ brew "zshdb"
 brew "busser/tap/tftree"
 # Command-line interface for BusyTag device management
 brew "busy-tag/busytag/busytag-cli"
-# Terraform provider for CyberArk Secrets Manager
-brew "cyberark/tools/terraform-provider-conjur"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # hcqr -- Generate QR codes featuring the HashiCorp logo
@@ -463,7 +471,7 @@ brew "shihanng/tfvar/tfvar"
 brew "shipyard-run/repo/shipyard"
 # Find & fix known vulnerabilities in open-source dependencies
 brew "snyk/tap/snyk"
-# tfx cli --  TFx is a standalone CLI for Terraform Cloud and Terraform Enterprise.
+# TFx is a standalone CLI tool for HCP Terraform and Terraform Enterprise.
 brew "straubt1/tap/tfx"
 # A command-line utility to print the summary of the terraform plan
 brew "thecasualcoder/stable/tf-summarize"
@@ -591,7 +599,6 @@ vscode "docker.docker"
 vscode "donjayamanne.githistory"
 vscode "dotjoshjohnson.xml"
 vscode "dustypomerleau.rust-syntax"
-vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "emilast.logfilehighlighter"
 vscode "eriklynd.json-tools"
@@ -608,8 +615,6 @@ vscode "github.vscode-pull-request-github"
 vscode "gitlab-ci-hackathon.gitlabciviewer"
 vscode "gitlab.gitlab-workflow"
 vscode "golang.go"
-vscode "google.geminicodeassist"
-vscode "googlecloudtools.cloudcode"
 vscode "gruntfuggly.todo-tree"
 vscode "hangxingliu.vscode-nginx-conf-hint"
 vscode "hashicorp.hcl"
@@ -629,6 +634,7 @@ vscode "magnobiet.docker-extension-pack"
 vscode "marcostazi.vs-code-vagrantfile"
 vscode "marklarah.pre-commit-vscode"
 vscode "matheusq94.tfs"
+vscode "mechatroner.rainbow-csv"
 vscode "mindginative.terraform-snippets"
 vscode "mohsen1.prettify-json"
 vscode "ms-azuretools.vscode-azure-github-copilot"
@@ -699,3 +705,4 @@ go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/straubt1/tfx"
 cargo "cargo-make"
 cargo "generate-readme"
+uv "specify-cli"
