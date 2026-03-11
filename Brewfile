@@ -207,6 +207,8 @@ brew "gzip"
 brew "hcl2json"
 # Kubernetes package manager
 brew "helm"
+# Client library for huggingface.co hub
+brew "hf"
 # Uses CSS selectors to extract bits content from HTML files
 brew "htmlq"
 # Improved top (interactive process viewer)
@@ -215,8 +217,6 @@ brew "htop"
 brew "httpie"
 # Add GitHub support to git on the command-line
 brew "hub"
-# Client library for huggingface.co hub
-brew "huggingface-cli"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Serializes the output of command-line tools to structured JSON output
@@ -491,6 +491,8 @@ cask "charles"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Brings the power of Copilot coding agent directly to your terminal
 cask "copilot-cli"
 # API documentation browser and code snippet manager
@@ -595,6 +597,7 @@ vscode "cordsen.ssync-files"
 vscode "d4nyll.devops-extension-pack"
 vscode "darkriszty.markdown-table-prettify"
 vscode "davidanson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
 vscode "docker.docker"
 vscode "donjayamanne.githistory"
 vscode "dotjoshjohnson.xml"
@@ -660,6 +663,7 @@ vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode-remote.remote-wsl"
 vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.azure-repos"
+vscode "ms-vscode.live-server"
 vscode "ms-vscode.makefile-tools"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-repositories"
@@ -668,6 +672,7 @@ vscode "naco-siren.gradle-language"
 vscode "njpwerner.autodocstring"
 vscode "owenfarrell.vscode-vault"
 vscode "p1c2u.docker-compose"
+vscode "pablodelucca.pixel-agents"
 vscode "pjmiravalle.terraform-advanced-syntax-highlighting"
 vscode "plex.vscode-regolint"
 vscode "qezhu.gitlink"
