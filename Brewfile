@@ -477,6 +477,8 @@ brew "straubt1/tap/tfx"
 brew "thecasualcoder/stable/tf-summarize"
 # The tfswitch command lets you switch between terraform versions.
 brew "warrensbox/tap/tfswitch"
+# IBM BOB shell
+brew "https://bob.ibm.com/download?bob=shell"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Tool to customise input devices and automate computer systems
