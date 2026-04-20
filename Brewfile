@@ -183,10 +183,10 @@ brew "go-task"
 brew "gobject-introspection"
 # Apply a diff file to an original
 brew "gpatch"
-# Database of common MIME types
-brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
+# Database of common MIME types
+brew "shared-mime-info"
 # Image processing tools collection
 brew "graphicsmagick"
 # Image manipulation
@@ -339,6 +339,8 @@ brew "screen"
 brew "shellcheck"
 # Autoformat shell script source code
 brew "shfmt"
+# Sync skills across AI CLI tools
+brew "skillshare"
 # Work with remote images registries
 brew "skopeo"
 # SOcket CAT: netcat on steroids
@@ -411,6 +413,10 @@ brew "zsh-history-substring-search"
 brew "zsh-lovers"
 # Debugger for zsh
 brew "zshdb"
+# Unified package manager for AI coding agent skills
+brew "abuxton/tap/skillshub"
+# Discover and summarize local Terraform state files
+brew "abuxton/tap/tf-slate"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
 # Command-line interface for BusyTag device management
@@ -476,7 +482,7 @@ brew "straubt1/tap/tfx"
 # A command-line utility to print the summary of the terraform plan
 brew "thecasualcoder/stable/tf-summarize"
 # The tfswitch command lets you switch between terraform versions.
-brew "warrensbox/tap/tfswitch"
+brew "warrensbox/tap/tfswitch", link: false
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Tool to customise input devices and automate computer systems
@@ -565,6 +571,8 @@ cask "steamcmd"
 cask "switchresx"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# The tfswitch command lets you switch between terraform versions.
+cask "warrensbox/tap/tfswitch"
 # File transfer application
 cask "transmit"
 # Gives Vagrant VMware plugin access to various VMware functionalities
@@ -693,6 +701,7 @@ vscode "softwaredotcom.swdc-100-days-of-code"
 vscode "softwaredotcom.swdc-vscode"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "subratthakur.remark-preview"
+vscode "tomoki1207.pdf"
 vscode "tsandall.opa"
 vscode "vscodevim.vim"
 vscode "waderyan.gitblame"
@@ -707,6 +716,7 @@ go "golang.org/x/tools/gopls"
 go "github.com/nao1215/gup"
 go "github.com/gulyasm/jsonui"
 go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/hashicorp/terraform-provider-policyrenderer"
 go "github.com/straubt1/tfx"
 cargo "cargo-make"
 cargo "generate-readme"
