@@ -1,4 +1,5 @@
 tap "abuxton/tap"
+tap "atlassian/acli"
 tap "busser/tap"
 tap "busy-tag/busytag"
 tap "cyberark/tools"
@@ -315,6 +316,8 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Tab completion for Python argparse
 brew "python-argcomplete"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Install various Ruby versions and implementations
@@ -417,6 +420,8 @@ brew "zshdb"
 brew "abuxton/tap/skillshub"
 # Discover and summarize local Terraform state files
 brew "abuxton/tap/tf-slate"
+# Software to interact with Atlassian Cloud from the terminal
+brew "atlassian/acli/acli"
 # Display your Terraform module call stack
 brew "busser/tap/tftree"
 # Command-line interface for BusyTag device management
@@ -452,10 +457,8 @@ brew "hashicorp/tap/packer"
 brew "hashicorp/tap/sentinel", link: false
 # Terraform Migrate
 brew "hashicorp/tap/tf-migrate"
-# Vault
-brew "hashicorp/tap/vault"
 # Vault Enterprise
-brew "hashicorp/tap/vault-enterprise", link: false
+brew "hashicorp/tap/vault-enterprise"
 # Vault Radar
 brew "hashicorp/tap/vault-radar"
 # Instruqt CLI
@@ -597,6 +600,8 @@ vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
+vscode "bierner.markdown-mermaid"
+vscode "bierner.markdown-preview-github-styles"
 vscode "brandontosch.hiera-eyaml"
 vscode "caponetto.vscode-diff-viewer"
 vscode "castwide.solargraph"
@@ -696,6 +701,7 @@ vscode "rust-lang.rust-analyzer"
 vscode "sahmed.terraform-comments-beautifier"
 vscode "shakram02.bash-beautify"
 vscode "shopify.ruby-lsp"
+vscode "silvenon.mdx"
 vscode "softwaredotcom.music-time"
 vscode "softwaredotcom.swdc-100-days-of-code"
 vscode "softwaredotcom.swdc-vscode"
@@ -703,11 +709,13 @@ vscode "streetsidesoftware.code-spell-checker"
 vscode "subratthakur.remark-preview"
 vscode "tomoki1207.pdf"
 vscode "tsandall.opa"
+vscode "unifiedjs.vscode-mdx"
 vscode "vscodevim.vim"
 vscode "waderyan.gitblame"
 vscode "wayou.vscode-todo-highlight"
 vscode "william-voyek.vscode-nginx"
 vscode "wmontalvo.vsc-jsonsnippets"
+vscode "xyc.vscode-mdx-preview"
 vscode "yzhang.markdown-all-in-one"
 vscode "ziishaned.livereload"
 go "golang.org/x/lint/golint"
