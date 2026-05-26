@@ -8,6 +8,7 @@ tap "golangci/tap"
 tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
+tap "hashimiche/tap"
 tap "instruqt/tap"
 tap "jameswoolfenden/tap"
 tap "jesseduffield/lazydocker"
@@ -170,10 +171,10 @@ brew "git-secrets"
 brew "gitversion"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -186,8 +187,6 @@ brew "gobject-introspection"
 brew "gpatch"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
-# Database of common MIME types
-brew "shared-mime-info"
 # Image processing tools collection
 brew "graphicsmagick"
 # Image manipulation
@@ -216,6 +215,8 @@ brew "htmlq"
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Website copier/offline browser
+brew "httrack"
 # Add GitHub support to git on the command-line
 brew "hub"
 # Tools and libraries to manipulate images in select formats
@@ -254,6 +255,8 @@ brew "libvirt", restart_service: :changed
 brew "libxslt"
 # High-performance, extensible alternative to ls
 brew "lla"
+# Find what models run on your hardware
+brew "llmfit"
 # Rainbows and unicorns in your console!
 brew "lolcat"
 # Utility to list open files
@@ -338,6 +341,8 @@ brew "rust"
 brew "rustup"
 # Terminal multiplexer with VT100/ANSI terminal emulation
 brew "screen"
+# Database of common MIME types
+brew "shared-mime-info"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Autoformat shell script source code
@@ -455,12 +460,16 @@ brew "hashicorp/tap/nomad-pack"
 # Packer
 brew "hashicorp/tap/packer"
 brew "hashicorp/tap/sentinel", link: false
+# Terraform
+brew "hashicorp/tap/terraform"
 # Terraform Migrate
 brew "hashicorp/tap/tf-migrate"
 # Vault Enterprise
 brew "hashicorp/tap/vault-enterprise"
 # Vault Radar
 brew "hashicorp/tap/vault-radar"
+# HAL - Hashicorp Academy Labs
+brew "hashimiche/tap/hal"
 # Instruqt CLI
 brew "instruqt/tap/instruqt"
 # Pike is a tool for determining the permissions or policy required for IAC code
@@ -473,8 +482,6 @@ brew "jsoconno/terraflow/terraflow"
 brew "liamg/tfsec/tfsec"
 # MinIO Client for object storage and filesystems
 brew "minio/stable/mc"
-# CLI to interact with the Overmind API
-brew "overmindtech/overmind/overmind-cli"
 # Terraform's variable definitions template generator.
 brew "shihanng/tfvar/tfvar"
 brew "shipyard-run/repo/shipyard"
@@ -484,8 +491,6 @@ brew "snyk/tap/snyk"
 brew "straubt1/tap/tfx"
 # A command-line utility to print the summary of the terraform plan
 brew "thecasualcoder/stable/tf-summarize"
-# The tfswitch command lets you switch between terraform versions.
-brew "warrensbox/tap/tfswitch", link: false
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Tool to customise input devices and automate computer systems
@@ -574,8 +579,6 @@ cask "steamcmd"
 cask "switchresx"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# The tfswitch command lets you switch between terraform versions.
-cask "warrensbox/tap/tfswitch"
 # File transfer application
 cask "transmit"
 # Gives Vagrant VMware plugin access to various VMware functionalities
@@ -590,7 +593,6 @@ mas "Apple Configurator", id: 1037126344
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "WhatsApp", id: 310633997
 mas "Windows App", id: 1295203466
@@ -624,7 +626,6 @@ vscode "foxundermoon.shell-format"
 vscode "funkyremi.vscode-google-translate"
 vscode "george-alisson.html-preview-vscode"
 vscode "github.codespaces"
-vscode "github.copilot-chat"
 vscode "github.remotehub"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
@@ -681,6 +682,7 @@ vscode "ms-vscode.makefile-tools"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-repositories"
 vscode "ms-vscode.remote-server"
+vscode "ms-vscode.vscode-chat-customizations-evaluations"
 vscode "naco-siren.gradle-language"
 vscode "njpwerner.autodocstring"
 vscode "owenfarrell.vscode-vault"
@@ -729,3 +731,7 @@ go "github.com/straubt1/tfx"
 cargo "cargo-make"
 cargo "generate-readme"
 uv "specify-cli"
+npm "@fission-ai/openspec"
+npm "@membranehq/cli"
+npm "add-gitignore"
+npm "bobshell"
