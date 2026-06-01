@@ -385,6 +385,8 @@ brew "tmuxinator"
 brew "unzip"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Your CLI home video recorder
+brew "vhs"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
@@ -593,6 +595,7 @@ mas "Apple Configurator", id: 1037126344
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "WhatsApp", id: 310633997
 mas "Windows App", id: 1295203466
@@ -621,6 +624,7 @@ vscode "editorconfig.editorconfig"
 vscode "emilast.logfilehighlighter"
 vscode "eriklynd.json-tools"
 vscode "felipecaputo.git-project-manager"
+vscode "formulahendry.agent-skills"
 vscode "formulahendry.docker-explorer"
 vscode "foxundermoon.shell-format"
 vscode "funkyremi.vscode-google-translate"
