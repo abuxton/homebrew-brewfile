@@ -1,8 +1,9 @@
 tap "abuxton/tap"
+tap "anomalyco/tap"
 tap "atlassian/acli"
 tap "busser/tap"
 tap "busy-tag/busytag"
-tap "cyberark/tools"
+tap "chrisadkin8/atelier", "https://github.com/ChrisAdkin8/homebrew-atelier", trusted: { formulae: ["atelier"] }
 tap "derailed/k9s"
 tap "golangci/tap"
 tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
@@ -16,9 +17,6 @@ tap "jsoconno/terraflow"
 tap "liamg/tfsec"
 tap "minio/stable"
 tap "nikaro/tap"
-tap "overmindtech/overmind"
-tap "puppetlabs/puppet"
-tap "replicatedhq/replicated"
 tap "romkatv/powerlevel10k"
 tap "shihanng/tfvar"
 tap "shipyard-run/repo"
@@ -31,6 +29,10 @@ tap "warrensbox/tap"
 brew "ack"
 # Run your GitHub Actions locally
 brew "act"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
 # Asciicast to GIF converter
 brew "agg"
 # Display directories as trees (with optional color/HTML output)
@@ -39,6 +41,8 @@ brew "tree"
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
 brew "ansible-lint"
+# Apple Intelligence from the command-line, with OpenAi-compatible API server
+brew "apfel"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13", link: false
 # Simple system information tool written in Python
@@ -155,6 +159,8 @@ brew "fzf"
 brew "gcc"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
+# Independent set of GDScript tools - parser, linter, formatter, and more
+brew "gdtoolkit"
 # GitHub command-line tool
 brew "gh"
 # Framework for layout and rendering of i18n text
@@ -173,8 +179,6 @@ brew "gitversion"
 brew "gnu-tar"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -245,6 +249,8 @@ brew "lazygit"
 brew "leiningen"
 # Pager program similar to more
 brew "less"
+# Portable Foreign Function Interface library
+brew "libffi"
 # Conversion library
 brew "libiconv"
 # General purpose TCP-IP emulator
@@ -343,8 +349,6 @@ brew "rustup"
 brew "screen"
 # Database of common MIME types
 brew "shared-mime-info"
-# Static analysis and lint tool, for (ba)sh scripts
-brew "shellcheck"
 # Autoformat shell script source code
 brew "shfmt"
 # Sync skills across AI CLI tools
@@ -361,6 +365,8 @@ brew "speedtest-cli"
 brew "ssh-copy-id", link: true
 # Command-line packet analyzer
 brew "tcpdump"
+# Modernized, complete, self-contained TeX/LaTeX engine
+brew "tectonic"
 # General purpose fuzzy finder TUI
 brew "television"
 # User interface to the TELNET protocol
@@ -381,6 +387,8 @@ brew "thrift"
 brew "tmux"
 # Manage complex tmux sessions easily
 brew "tmuxinator"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Extraction utility for .zip compressed archives
 brew "unzip"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -424,75 +432,47 @@ brew "zsh-lovers"
 # Debugger for zsh
 brew "zshdb"
 # Unified package manager for AI coding agent skills
-brew "abuxton/tap/skillshub"
+brew "abuxton/tap/skillshub", trusted: true
 # Discover and summarize local Terraform state files
-brew "abuxton/tap/tf-slate"
+brew "abuxton/tap/tf-slate", trusted: true
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
 # Software to interact with Atlassian Cloud from the terminal
-brew "atlassian/acli/acli"
+brew "atlassian/acli/acli", trusted: true
 # Display your Terraform module call stack
-brew "busser/tap/tftree"
+brew "busser/tap/tftree", trusted: true
 # Command-line interface for BusyTag device management
-brew "busy-tag/busytag/busytag-cli"
+brew "busy-tag/busytag/busytag-cli", trusted: true
 # Fast linters runner for Go.
-brew "golangci/tap/golangci-lint"
+brew "golangci/tap/golangci-lint", trusted: true
 # hcqr -- Generate QR codes featuring the HashiCorp logo
-brew "hashicorp/internal/hcqr"
+brew "hashicorp/internal/hcqr", trusted: true
 # Doormat CLI -- Command Line Interface to the Doormat Service
-brew "hashicorp/security/doormat-cli"
-# Boundary
-brew "hashicorp/tap/boundary"
-# Consul
-brew "hashicorp/tap/consul"
-# Consul Enterprise
-brew "hashicorp/tap/consul-enterprise", link: false
-# Consul K8s
-brew "hashicorp/tap/consul-k8s"
-# Env Consul
-brew "hashicorp/tap/envconsul"
-# hc-install CLI
-brew "hashicorp/tap/hc-install"
-# Hcdiag
-brew "hashicorp/tap/hcdiag"
-# Levant
-brew "hashicorp/tap/levant"
-# Nomad Enterprise
-brew "hashicorp/tap/nomad-enterprise"
-# Nomad Pack
-brew "hashicorp/tap/nomad-pack"
-# Packer
-brew "hashicorp/tap/packer"
-brew "hashicorp/tap/sentinel", link: false
-# Terraform
-brew "hashicorp/tap/terraform"
-# Terraform Migrate
-brew "hashicorp/tap/tf-migrate"
-# Vault Enterprise
-brew "hashicorp/tap/vault-enterprise"
-# Vault Radar
-brew "hashicorp/tap/vault-radar"
+brew "hashicorp/security/doormat-cli", trusted: true
+brew "hashicorp/tap/tfctl", trusted: true
 # HAL - Hashicorp Academy Labs
-brew "hashimiche/tap/hal"
+brew "hashimiche/tap/hal", trusted: true
 # Instruqt CLI
-brew "instruqt/tap/instruqt"
+brew "instruqt/tap/instruqt", trusted: true
 # Pike is a tool for determining the permissions or policy required for IAC code
-brew "jameswoolfenden/tap/pike"
+brew "jameswoolfenden/tap/pike", trusted: true
 # A simple terminal UI for docker, written in Go
-brew "jesseduffield/lazydocker/lazydocker"
+brew "jesseduffield/lazydocker/lazydocker", trusted: true
 # A toolkit for making coding, documenting, and deploying Terraform simpler.
-brew "jsoconno/terraflow/terraflow"
+brew "jsoconno/terraflow/terraflow", trusted: true
 # Static analysis powered security scanner for your terraform code
-brew "liamg/tfsec/tfsec"
+brew "liamg/tfsec/tfsec", trusted: true
 # MinIO Client for object storage and filesystems
-brew "minio/stable/mc"
+brew "minio/stable/mc", trusted: true
 # Terraform's variable definitions template generator.
-brew "shihanng/tfvar/tfvar"
-brew "shipyard-run/repo/shipyard"
+brew "shihanng/tfvar/tfvar", trusted: true
+brew "shipyard-run/repo/shipyard", trusted: true
 # Find & fix known vulnerabilities in open-source dependencies
-brew "snyk/tap/snyk"
+brew "snyk/tap/snyk", trusted: true
 # TFx is a standalone CLI tool for HCP Terraform and Terraform Enterprise.
-brew "straubt1/tap/tfx"
+brew "straubt1/tap/tfx", trusted: true
 # A command-line utility to print the summary of the terraform plan
-brew "thecasualcoder/stable/tf-summarize"
+brew "thecasualcoder/stable/tf-summarize", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Tool to customise input devices and automate computer systems
@@ -529,11 +509,12 @@ cask "garmin-express"
 cask "gcloud-cli"
 # Cross-platform Git credential storage for multiple hosting providers
 cask "git-credential-manager"
+# 2D and 3D game engine
+cask "godot"
 # Client for the Google Drive storage service
 cask "google-drive"
-cask "hashicorp/tap/hashicorp-boundary-desktop"
-# Development environment
-cask "hashicorp/tap/hashicorp-vagrant"
+cask "hashicorp-boundary-desktop"
+cask "hashicorp-vagrant"
 # System monitoring app
 cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -554,7 +535,6 @@ cask "minecraft"
 cask "obsidian"
 # OpenVPN client
 cask "pritunl"
-cask "puppetlabs/puppet/puppet-agent"
 # Kubernetes and container management on the desktop
 cask "rancher"
 # Language and framework for policy as code
@@ -603,6 +583,7 @@ mas "Xcode", id: 497799835
 vscode "1yib.rust-bundle"
 vscode "accuricsinc.terrascan-rego-editor"
 vscode "ahmadalli.vscode-nginx-conf"
+vscode "alfish.godot-files"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
 vscode "bierner.markdown-mermaid"
@@ -628,6 +609,7 @@ vscode "formulahendry.agent-skills"
 vscode "formulahendry.docker-explorer"
 vscode "foxundermoon.shell-format"
 vscode "funkyremi.vscode-google-translate"
+vscode "geequlim.godot-tools"
 vscode "george-alisson.html-preview-vscode"
 vscode "github.codespaces"
 vscode "github.remotehub"
@@ -656,6 +638,7 @@ vscode "marcostazi.vs-code-vagrantfile"
 vscode "marklarah.pre-commit-vscode"
 vscode "matheusq94.tfs"
 vscode "mechatroner.rainbow-csv"
+vscode "mhutchie.git-graph"
 vscode "mindginative.terraform-snippets"
 vscode "mohsen1.prettify-json"
 vscode "ms-azuretools.vscode-azure-github-copilot"
@@ -713,6 +696,7 @@ vscode "softwaredotcom.swdc-100-days-of-code"
 vscode "softwaredotcom.swdc-vscode"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "subratthakur.remark-preview"
+vscode "task.vscode-task"
 vscode "tomoki1207.pdf"
 vscode "tsandall.opa"
 vscode "unifiedjs.vscode-mdx"
@@ -734,7 +718,7 @@ go "github.com/hashicorp/terraform-provider-policyrenderer"
 go "github.com/straubt1/tfx"
 cargo "cargo-make"
 cargo "generate-readme"
-uv "specify-cli"
+uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
 npm "@fission-ai/openspec"
 npm "@membranehq/cli"
 npm "add-gitignore"
