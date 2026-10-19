@@ -4,7 +4,9 @@ tap "atlassian/acli"
 tap "busser/tap"
 tap "busy-tag/busytag"
 tap "chrisadkin8/atelier", "https://github.com/ChrisAdkin8/homebrew-atelier", trusted: { formulae: ["atelier"] }
-tap "derailed/k9s"
+tap "coder/coder"
+tap "derailed/k9s", trusted: true
+tap "glnreddy421/klew"
 tap "golangci/tap"
 tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
@@ -16,15 +18,16 @@ tap "jesseduffield/lazydocker"
 tap "jsoconno/terraflow"
 tap "liamg/tfsec"
 tap "minio/stable"
-tap "nikaro/tap"
-tap "romkatv/powerlevel10k"
+tap "nikaro/tap", trusted: true
+tap "romkatv/powerlevel10k", trusted: true
 tap "shihanng/tfvar"
 tap "shipyard-run/repo"
-tap "skanehira/docui"
+tap "skanehira/docui", trusted: true
 tap "snyk/tap"
+tap "steipete/tap"
 tap "straubt1/tap"
 tap "thecasualcoder/stable"
-tap "warrensbox/tap"
+tap "warrensbox/tap", trusted: true
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Run your GitHub Actions locally
@@ -286,9 +289,9 @@ brew "md5sha1sum", link: true
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Project documentation with Markdown
-brew "mkdocs", link: false
+brew "mkdocs"
 # Material Design theme for MkDocs
-brew "mkdocs-material"
+brew "mkdocs-material", link: false
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Network grep
@@ -299,6 +302,8 @@ brew "notify"
 brew "oauth2l"
 # Create, run, and share large language models (LLMs)
 brew "ollama"
+# Persistent architectural memory and structural cognition for AI coding agents
+brew "openlore"
 # API for decoding and seeking in .opus files
 brew "opusfile"
 # 7-Zip (high compression file archiver) implementation
@@ -431,6 +436,8 @@ brew "zsh-history-substring-search"
 brew "zsh-lovers"
 # Debugger for zsh
 brew "zshdb"
+# Open-source toolkit for building AI SRE agents
+brew "abuxton/tap/opensre", trusted: true
 # Unified package manager for AI coding agent skills
 brew "abuxton/tap/skillshub", trusted: true
 # Discover and summarize local Terraform state files
@@ -443,6 +450,8 @@ brew "atlassian/acli/acli", trusted: true
 brew "busser/tap/tftree", trusted: true
 # Command-line interface for BusyTag device management
 brew "busy-tag/busytag/busytag-cli", trusted: true
+# Provisions remote development environments via Terraform
+brew "coder/coder/coder", trusted: true
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint", trusted: true
 # hcqr -- Generate QR codes featuring the HashiCorp logo
@@ -489,6 +498,8 @@ cask "claude"
 cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Menu bar usage monitor for Codex and Claude
+cask "steipete/tap/codexbar", trusted: true
 # Brings the power of Copilot coding agent directly to your terminal
 cask "copilot-cli"
 # API documentation browser and code snippet manager
@@ -521,6 +532,8 @@ cask "istat-menus"
 cask "iterm2"
 # End-to-end encryption software
 cask "keybase"
+# Live Kubernetes incident investigation (desktop app)
+cask "glnreddy421/klew/klew", trusted: true
 # Animated screen capture application
 cask "licecap"
 # Screen and video recording software
@@ -531,6 +544,8 @@ cask "loopback"
 cask "macfuse"
 # Sandbox construction video game
 cask "minecraft"
+# Interactive tool for analyzing MongoDB data
+cask "mongodb-compass"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # OpenVPN client
