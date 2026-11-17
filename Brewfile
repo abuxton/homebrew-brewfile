@@ -1,4 +1,4 @@
-tap "abuxton/tap"
+tap "abuxton/tap", trusted: true
 tap "anomalyco/tap"
 tap "atlassian/acli"
 tap "busser/tap"
@@ -13,13 +13,14 @@ tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
 tap "hashimiche/tap"
 tap "instruqt/tap"
-tap "jameswoolfenden/tap"
+tap "jameswoolfenden/tap", trusted: { formulae: ["pike"] }
 tap "jesseduffield/lazydocker"
 tap "jsoconno/terraflow"
 tap "liamg/tfsec"
 tap "minio/stable"
 tap "nikaro/tap", trusted: true
 tap "romkatv/powerlevel10k", trusted: true
+tap "scouzi1966/afm", trusted: true
 tap "shihanng/tfvar"
 tap "shipyard-run/repo"
 tap "skanehira/docui", trusted: true
@@ -310,6 +311,8 @@ brew "opusfile"
 brew "p7zip"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Dynamic programming language
+brew "pike"
 # Python dependency management tool
 brew "pipenv"
 # Execute binaries from Python packages in isolated environments
@@ -463,8 +466,6 @@ brew "hashicorp/tap/tfctl", trusted: true
 brew "hashimiche/tap/hal", trusted: true
 # Instruqt CLI
 brew "instruqt/tap/instruqt", trusted: true
-# Pike is a tool for determining the permissions or policy required for IAC code
-brew "jameswoolfenden/tap/pike", trusted: true
 # A simple terminal UI for docker, written in Go
 brew "jesseduffield/lazydocker/lazydocker", trusted: true
 # A toolkit for making coding, documenting, and deploying Terraform simpler.
@@ -473,6 +474,8 @@ brew "jsoconno/terraflow/terraflow", trusted: true
 brew "liamg/tfsec/tfsec", trusted: true
 # MinIO Client for object storage and filesystems
 brew "minio/stable/mc", trusted: true
+# Apple Foundation Models + MLX local models — OpenAI-compatible API, WebUI, all Swift
+brew "scouzi1966/afm/afm"
 # Terraform's variable definitions template generator.
 brew "shihanng/tfvar/tfvar", trusted: true
 brew "shipyard-run/repo/shipyard", trusted: true
@@ -524,8 +527,8 @@ cask "git-credential-manager"
 cask "godot"
 # Client for the Google Drive storage service
 cask "google-drive"
-cask "hashicorp-boundary-desktop"
-cask "hashicorp-vagrant"
+cask "hashicorp/tap/hashicorp-boundary-desktop"
+cask "hashicorp/tap/hashicorp-vagrant"
 # System monitoring app
 cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -550,6 +553,8 @@ cask "mongodb-compass"
 cask "obsidian"
 # OpenVPN client
 cask "pritunl"
+# Companion app for Flipper Zero devices
+cask "qflipper"
 # Kubernetes and container management on the desktop
 cask "rancher"
 # Language and framework for policy as code
@@ -580,6 +585,8 @@ cask "telegram"
 cask "transmit"
 # Gives Vagrant VMware plugin access to various VMware functionalities
 cask "vagrant-vmware-utility"
+# AI chat app with Apple Intelligence, MLX, and llama.cpp backends
+cask "scouzi1966/afm/vesta-mac"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -735,6 +742,6 @@ cargo "cargo-make"
 cargo "generate-readme"
 uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
 npm "@fission-ai/openspec"
+npm "@ibm/bob"
 npm "@membranehq/cli"
 npm "add-gitignore"
-npm "bobshell"
