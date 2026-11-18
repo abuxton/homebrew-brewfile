@@ -1,4 +1,5 @@
 tap "abuxton/tap", trusted: true
+tap "abuxton/tf-slate", "https://github.com/abuxton/tf-slate"
 tap "anomalyco/tap"
 tap "atlassian/acli"
 tap "busser/tap"
@@ -12,6 +13,7 @@ tap "hashicorp/internal", "git@github.com:hashicorp/homebrew-internal.git"
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
 tap "hashimiche/tap"
+tap "homebrew/core"
 tap "instruqt/tap"
 tap "jameswoolfenden/tap", trusted: { formulae: ["pike"] }
 tap "jesseduffield/lazydocker"
@@ -191,6 +193,8 @@ brew "go"
 brew "go-task"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# Deliver Go binaries as fast and easily as possible
+brew "goreleaser"
 # Apply a diff file to an original
 brew "gpatch"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
@@ -443,8 +447,8 @@ brew "zshdb"
 brew "abuxton/tap/opensre", trusted: true
 # Unified package manager for AI coding agent skills
 brew "abuxton/tap/skillshub", trusted: true
-# Discover and summarize local Terraform state files
-brew "abuxton/tap/tf-slate", trusted: true
+# Discover, summarize, and manage local Terraform state files
+brew "abuxton/tf-slate/tf-slate"
 # The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode", trusted: true
 # Software to interact with Atlassian Cloud from the terminal
